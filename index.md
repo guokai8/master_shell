@@ -6,14 +6,14 @@
 
 | Chapter | Title | Description |
 |---------|-------|-------------|
-| 1 | [Installation and Environment Setup](chapters/chapter-01-installation-setup.md) | Getting started with Bash on macOS and Linux |
-| 2 | [Understanding Error Messages](chapters/chapter-02-understanding-errors.md) | Decoding Bash error messages and their meanings |
-| 3 | [Command Not Found Errors](chapters/chapter-03-command-not-found.md) | Resolving PATH and executable issues |
-| 4 | [Permission and Access Errors](chapters/chapter-04-permission-errors.md) | Understanding file permissions and access control |
-| 5 | [File and Directory Errors](chapters/chapter-05-file-directory-errors.md) | Handling filesystem-related errors |
-| 6 | [Syntax Errors](chapters/chapter-06-syntax-errors.md) | Mastering Bash syntax and avoiding common mistakes |
-| 7 | [Variable and Parameter Errors](chapters/chapter-07-variable-errors.md) | Working with variables, parameters, and expansions |
-| 8 | [Process and Job Control Errors](chapters/chapter-08-process-errors.md) | Managing processes, jobs, and signals |
+| 1 | [Installation and Environment Setup](chapter-01-installation-setup.md) | Getting started with Bash on macOS and Linux |
+| 2 | [Understanding Error Messages](chapter-02-understanding-errors.md) | Decoding Bash error messages and their meanings |
+| 3 | [Command Not Found Errors](chapter-03-command-not-found.md) | Resolving PATH and executable issues |
+| 4 | [Permission and Access Errors](chapter-04-permission-errors.md) | Understanding file permissions and access control |
+| 5 | [File and Directory Errors](chapter-05-file-directory-errors.md) | Handling filesystem-related errors |
+| 6 | [Syntax Errors](chapter-06-syntax-errors.md) | Mastering Bash syntax and avoiding common mistakes |
+| 7 | [Variable and Parameter Errors](chapter-07-variable-errors.md) | Working with variables, parameters, and expansions |
+| 8 | [Process and Job Control Errors](chapter-08-process-errors.md) | Managing processes, jobs, and signals |
 
 ## 🎯 About This Book
 
@@ -84,7 +84,7 @@ Special thanks to the Bash community and everyone who's shared their debugging e
 
 ---
 
-**Ready to turn your Bash errors into expertise?** Start with [Chapter 1: Installation and Environment Setup](chapters/chapter-01-installation-setup.md)!
+**Ready to turn your Bash errors into expertise?** Start with [Chapter 1: Installation and Environment Setup](chapter-01-installation-setup.md)!
 
 ## 📊 Book Statistics
 

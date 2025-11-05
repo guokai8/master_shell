@@ -1,0 +1,32 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "The Complete Guide to Bash Errors: From Beginner to Expert"
+  author: "Kai Guo"
+  chapters:
+    - index.md
+    - chapter-01-installation-setup.md
+    - chapter-02-understanding-errors.md
+    - chapter-03-command-not-found.md
+    - chapter-04-permission-errors.md
+    - chapter-05-file-directory-errors.md
+    - chapter-06-syntax-errors.md
+    - chapter-07-variable-errors.md
+    - chapter-08-process-errors.md
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: true
+    code-fold: true
+    code-summary: "Show code"
+  pdf:
+    documentclass: book
+    toc: true
+    number-sections: true
+  epub:
+    toc: true
+

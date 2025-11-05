@@ -1,0 +1,1142 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The Complete Guide to Bash Errors: From Beginner to Expert",
+    "section": "",
+    "text": "1 The Complete Guide to Bash Errors: From Beginner to Expert\nMaster Bash through understanding errors and warnings",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Complete Guide to Bash Errors: From Beginner to Expert</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#table-of-contents",
+    "href": "index.html#table-of-contents",
+    "title": "The Complete Guide to Bash Errors: From Beginner to Expert",
+    "section": "1.1 📚 Table of Contents",
+    "text": "1.1 📚 Table of Contents\n\n\n\nChapter\nTitle\nDescription\n\n\n\n\n1\nInstallation and Environment Setup\nGetting started with Bash on macOS and Linux\n\n\n2\nUnderstanding Error Messages\nDecoding Bash error messages and their meanings\n\n\n3\nCommand Not Found Errors\nResolving PATH and executable issues\n\n\n4\nPermission and Access Errors\nUnderstanding file permissions and access control\n\n\n5\nFile and Directory Errors\nHandling filesystem-related errors\n\n\n6\nSyntax Errors\nMastering Bash syntax and avoiding common mistakes\n\n\n7\nVariable and Parameter Errors\nWorking with variables, parameters, and expansions\n\n\n8\nProcess and Job Control Errors\nManaging processes, jobs, and signals",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Complete Guide to Bash Errors: From Beginner to Expert</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#about-this-book",
+    "href": "index.html#about-this-book",
+    "title": "The Complete Guide to Bash Errors: From Beginner to Expert",
+    "section": "1.2 🎯 About This Book",
+    "text": "1.2 🎯 About This Book\nThis comprehensive guide teaches Bash scripting through a unique error-first approach. Instead of just showing you what works, we focus on what goes wrong and how to fix it. Each chapter includes:\n\nReal-world error scenarios with detailed explanations\nStep-by-step troubleshooting guides\nBest practices to prevent common mistakes\nQuick reference sections for easy lookup\nPractical examples you can run and modify",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Complete Guide to Bash Errors: From Beginner to Expert</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#who-this-book-is-for",
+    "href": "index.html#who-this-book-is-for",
+    "title": "The Complete Guide to Bash Errors: From Beginner to Expert",
+    "section": "1.3 🚀 Who This Book Is For",
+    "text": "1.3 🚀 Who This Book Is For\n\nBeginners learning Bash from scratch\nIntermediate users wanting to improve debugging skills\nSystem administrators dealing with shell scripts daily\nDevelopers working in Unix/Linux environments\nAnyone who’s ever been frustrated by cryptic error messages",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Complete Guide to Bash Errors: From Beginner to Expert</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#learning-philosophy",
+    "href": "index.html#learning-philosophy",
+    "title": "The Complete Guide to Bash Errors: From Beginner to Expert",
+    "section": "1.4 💡 Learning Philosophy",
+    "text": "1.4 💡 Learning Philosophy\n\n“Every error is a learning opportunity”\n\nThis book embraces mistakes as powerful teaching tools. By understanding what goes wrong and why, you’ll develop:\n\nDebugging intuition to quickly identify problems\nError prevention skills to write better scripts\nTroubleshooting confidence to tackle any issue\nDeep understanding of how Bash really works",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Complete Guide to Bash Errors: From Beginner to Expert</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#prerequisites",
+    "href": "index.html#prerequisites",
+    "title": "The Complete Guide to Bash Errors: From Beginner to Expert",
+    "section": "1.5 🛠 Prerequisites",
+    "text": "1.5 🛠 Prerequisites\n\nBasic command line familiarity\nAccess to a Unix/Linux system or macOS\nWillingness to experiment and make mistakes!",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Complete Guide to Bash Errors: From Beginner to Expert</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use-this-book",
+    "href": "index.html#how-to-use-this-book",
+    "title": "The Complete Guide to Bash Errors: From Beginner to Expert",
+    "section": "1.6 📖 How to Use This Book",
+    "text": "1.6 📖 How to Use This Book\n\nStart with Chapter 1 to set up your environment properly\nFollow chapters sequentially for structured learning\nTry all examples - practice is essential\nUse as reference - keep it handy while scripting\nExperiment - modify examples to see what happens",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Complete Guide to Bash Errors: From Beginner to Expert</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#tools-youll-need",
+    "href": "index.html#tools-youll-need",
+    "title": "The Complete Guide to Bash Errors: From Beginner to Expert",
+    "section": "1.7 🔧 Tools You’ll Need",
+    "text": "1.7 🔧 Tools You’ll Need\n\nBash shell (version 4.0+ recommended)\nText editor (nano, vim, VS Code, etc.)\nShellCheck (static analysis tool)\nTerminal access",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Complete Guide to Bash Errors: From Beginner to Expert</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#contributing",
+    "href": "index.html#contributing",
+    "title": "The Complete Guide to Bash Errors: From Beginner to Expert",
+    "section": "1.8 📝 Contributing",
+    "text": "1.8 📝 Contributing\nFound an error or have a suggestion? Contributions are welcome!\n\nFork this repository\nCreate a feature branch\nMake your changes\nSubmit a pull request",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Complete Guide to Bash Errors: From Beginner to Expert</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#license",
+    "href": "index.html#license",
+    "title": "The Complete Guide to Bash Errors: From Beginner to Expert",
+    "section": "1.9 📄 License",
+    "text": "1.9 📄 License\nThis work is licensed under MIT License.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Complete Guide to Bash Errors: From Beginner to Expert</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#acknowledgments",
+    "href": "index.html#acknowledgments",
+    "title": "The Complete Guide to Bash Errors: From Beginner to Expert",
+    "section": "1.10 🙏 Acknowledgments",
+    "text": "1.10 🙏 Acknowledgments\nSpecial thanks to the Bash community and everyone who’s shared their debugging experiences to make this guide possible.\n\nReady to turn your Bash errors into expertise? Start with Chapter 1: Installation and Environment Setup!",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Complete Guide to Bash Errors: From Beginner to Expert</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#book-statistics",
+    "href": "index.html#book-statistics",
+    "title": "The Complete Guide to Bash Errors: From Beginner to Expert",
+    "section": "1.11 📊 Book Statistics",
+    "text": "1.11 📊 Book Statistics\n\n8 chapters covering all major error categories\n100+ examples with real error scenarios\n50+ troubleshooting scripts ready to use\nComprehensive reference sections in each chapter\n\n\nHappy scripting! 🚀",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Complete Guide to Bash Errors: From Beginner to Expert</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-01-installation-setup.html",
+    "href": "chapter-01-installation-setup.html",
+    "title": "2  Chapter 1: Installation and Environment Setup",
+    "section": "",
+    "text": "2.1 Getting Started with Bash on MacOS and Linux",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Chapter 1: Installation and Environment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-01-installation-setup.html#overview",
+    "href": "chapter-01-installation-setup.html#overview",
+    "title": "2  Chapter 1: Installation and Environment Setup",
+    "section": "2.2 Overview",
+    "text": "2.2 Overview\nBefore diving into Bash error troubleshooting, you need a properly configured environment. This chapter guides you through installing and setting up Bash on both MacOS and Linux systems, ensuring you have the right tools and configuration for effective debugging.\nBy the end of this chapter, you’ll have: - Bash installed and updated on your system - A properly configured shell environment - Essential debugging tools installed - Knowledge of your system’s Bash version and capabilities",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Chapter 1: Installation and Environment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-01-installation-setup.html#understanding-bash-versions",
+    "href": "chapter-01-installation-setup.html#understanding-bash-versions",
+    "title": "2  Chapter 1: Installation and Environment Setup",
+    "section": "2.3 1.1 Understanding Bash Versions",
+    "text": "2.3 1.1 Understanding Bash Versions\n\n2.3.1 What is Bash?\nBash (Bourne Again Shell) is the default shell on most Linux distributions and was the default on MacOS until Catalina (10.15). Understanding your Bash version is crucial because:\n\nDifferent versions have different features\nError messages may vary between versions\nSome syntax is version-specific\n\n\n\n2.3.2 Checking Your Bash Version\n# Check Bash version\nbash --version\n\n# Alternative: Check current shell\necho $BASH_VERSION\n\n# Check default shell\necho $SHELL\n\n# Check available shells\ncat /etc/shells\nSample Output:\nGNU bash, version 5.2.15(1)-release (x86_64-apple-darwin23.0.0)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Chapter 1: Installation and Environment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-01-installation-setup.html#installing-bash-on-macos",
+    "href": "chapter-01-installation-setup.html#installing-bash-on-macos",
+    "title": "2  Chapter 1: Installation and Environment Setup",
+    "section": "2.4 1.2 Installing Bash on MacOS",
+    "text": "2.4 1.2 Installing Bash on MacOS\n\n2.4.1 Default Bash on MacOS\nMacOS comes with Bash pre-installed, but it’s often an older version due to licensing restrictions.\nCheck your current version:\nbash --version\nMacOS Monterey and later typically ship with Bash 3.2 (from 2007) due to GPLv2 vs GPLv3 licensing.\n\n\n2.4.2 Installing Updated Bash via Homebrew\nStep 1: Install Homebrew (if not already installed)\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\nStep 2: Install latest Bash\nbrew install bash\nStep 3: Verify installation\n/usr/local/bin/bash --version\n# or on Apple Silicon:\n/opt/homebrew/bin/bash --version\nStep 4: Add new Bash to allowed shells\n# Add to /etc/shells\necho \"/usr/local/bin/bash\" | sudo tee -a /etc/shells\n# or on Apple Silicon:\necho \"/opt/homebrew/bin/bash\" | sudo tee -a /etc/shells\nStep 5: Change default shell (optional)\nchsh -s /usr/local/bin/bash\n# or on Apple Silicon:\nchsh -s /opt/homebrew/bin/bash\n\n\n2.4.3 MacOS-Specific Considerations\nZsh is now default: Since MacOS Catalina (10.15), the default shell is Zsh. To switch to Bash:\n# Temporary (current session only)\nbash\n\n# Permanent\nchsh -s /bin/bash",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Chapter 1: Installation and Environment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-01-installation-setup.html#installing-bash-on-linux",
+    "href": "chapter-01-installation-setup.html#installing-bash-on-linux",
+    "title": "2  Chapter 1: Installation and Environment Setup",
+    "section": "2.5 1.3 Installing Bash on Linux",
+    "text": "2.5 1.3 Installing Bash on Linux\n\n2.5.1 Checking Current Installation\nMost Linux distributions come with Bash pre-installed:\n# Check version\nbash --version\n\n# Check if it's your default shell\necho $SHELL\n\n# Verify it's in your PATH\nwhich bash\n\n\n2.5.2 Installing/Updating Bash\nUbuntu/Debian:\nsudo apt update\nsudo apt install bash\nCentOS/RHEL/Fedora:\nsudo yum install bash\n# or\nsudo dnf install bash\nArch Linux:\nsudo pacman -S bash\n\n\n2.5.3 Building from Source (Advanced)\nIf you need the absolute latest version:\n# Download latest Bash\nwget https://ftp.gnu.org/gnu/bash/bash-5.2.tar.gz\n\n# Extract\ntar -xzvf bash-5.2.tar.gz\ncd bash-5.2\n\n# Configure and build\n./configure\nmake\nsudo make install",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Chapter 1: Installation and Environment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-01-installation-setup.html#essential-configuration-files",
+    "href": "chapter-01-installation-setup.html#essential-configuration-files",
+    "title": "2  Chapter 1: Installation and Environment Setup",
+    "section": "2.6 1.4 Essential Configuration Files",
+    "text": "2.6 1.4 Essential Configuration Files\n\n2.6.1 Understanding Bash Configuration\nBash reads different configuration files depending on how it’s invoked:\nLogin Shell: - /etc/profile (system-wide) - ~/.bash_profile - ~/.bash_login - ~/.profile\nNon-Login Interactive Shell: - /etc/bash.bashrc (system-wide) - ~/.bashrc\nNon-Interactive Shell: - Uses $BASH_ENV variable\n\n\n2.6.2 Setting Up .bashrc\nCreate or edit ~/.bashrc:\n# ~/.bashrc\n\n# Source global definitions\nif [ -f /etc/bashrc ]; then\n    . /etc/bashrc\nfi\n\n# User specific aliases and functions\nalias ll='ls -lah'\nalias grep='grep --color=auto'\n\n# Set default editor\nexport EDITOR=nano\n\n# Add custom directories to PATH\nexport PATH=\"$HOME/bin:$PATH\"\n\n# Enable bash completion\nif [ -f /etc/bash_completion ]; then\n    . /etc/bash_completion\nfi\n\n# History settings\nexport HISTSIZE=10000\nexport HISTFILESIZE=20000\nexport HISTCONTROL=ignoredups:erasedups\n\n# Prompt customization\nPS1='\\[\\e[32m\\]\\u@\\h\\[\\e[0m\\]:\\[\\e[34m\\]\\w\\[\\e[0m\\]\\$ '\n\n\n2.6.3 Setting Up .bash_profile\nCreate or edit ~/.bash_profile:\n# ~/.bash_profile\n\n# Source .bashrc for login shells\nif [ -f ~/.bashrc ]; then\n    . ~/.bashrc\nfi\n\n# MacOS specific: Add Homebrew to PATH\nif [ -f /opt/homebrew/bin/brew ]; then\n    eval \"$(/opt/homebrew/bin/brew shellenv)\"\nfi",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Chapter 1: Installation and Environment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-01-installation-setup.html#essential-tools-for-debugging",
+    "href": "chapter-01-installation-setup.html#essential-tools-for-debugging",
+    "title": "2  Chapter 1: Installation and Environment Setup",
+    "section": "2.7 1.5 Essential Tools for Debugging",
+    "text": "2.7 1.5 Essential Tools for Debugging\n\n2.7.1 Installing ShellCheck\nShellCheck is a static analysis tool for shell scripts:\nMacOS:\nbrew install shellcheck\nUbuntu/Debian:\nsudo apt install shellcheck\nUsage:\nshellcheck script.sh\n\n\n2.7.2 Installing bash-completion\nImproves command and filename completion:\nMacOS:\nbrew install bash-completion@2\nUbuntu/Debian:\nsudo apt install bash-completion\n\n\n2.7.3 Other Useful Tools\n# MacOS\nbrew install tree      # Directory tree viewer\nbrew install tldr      # Simplified man pages\nbrew install jq        # JSON processor\n\n# Ubuntu/Debian\nsudo apt install tree tldr jq",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Chapter 1: Installation and Environment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-01-installation-setup.html#environment-variables-setup",
+    "href": "chapter-01-installation-setup.html#environment-variables-setup",
+    "title": "2  Chapter 1: Installation and Environment Setup",
+    "section": "2.8 1.6 Environment Variables Setup",
+    "text": "2.8 1.6 Environment Variables Setup\n\n2.8.1 Critical Environment Variables\n# View current environment\nprintenv\n\n# Essential variables to set\nexport PATH=\"$HOME/bin:/usr/local/bin:$PATH\"\nexport EDITOR=nano\nexport VISUAL=nano\nexport LANG=en_US.UTF-8\nexport LC_ALL=en_US.UTF-8\n\n\n2.8.2 PATH Management\n# View current PATH\necho $PATH\n\n# Add directory to PATH (temporary)\nexport PATH=\"/new/directory:$PATH\"\n\n# Add to PATH permanently (add to ~/.bashrc)\necho 'export PATH=\"/new/directory:$PATH\"' &gt;&gt; ~/.bashrc\nsource ~/.bashrc",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Chapter 1: Installation and Environment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-01-installation-setup.html#verifying-your-setup",
+    "href": "chapter-01-installation-setup.html#verifying-your-setup",
+    "title": "2  Chapter 1: Installation and Environment Setup",
+    "section": "2.9 1.7 Verifying Your Setup",
+    "text": "2.9 1.7 Verifying Your Setup\n\n2.9.1 Quick Verification Script\nSave this as verify_bash_setup.sh:\n#!/bin/bash\n\necho \"Bash Environment Verification\"\necho \"==============================\"\necho\n\necho \"1. Bash Version:\"\nbash --version | head -1\necho\n\necho \"2. Current Shell:\"\necho $SHELL\necho\n\necho \"3. Bash Location:\"\nwhich bash\necho\n\necho \"4. PATH:\"\necho $PATH | tr ':' '\\n' | head -5\necho \"   ... (showing first 5 entries)\"\necho\n\necho \"5. Essential Tools:\"\nfor tool in shellcheck git nano; do\n    if command -v $tool &&gt; /dev/null; then\n        echo \"   ✓ $tool installed\"\n    else\n        echo \"   ✗ $tool not found\"\n    fi\ndone\necho\n\necho \"6. Configuration Files:\"\nfor file in ~/.bashrc ~/.bash_profile ~/.profile; do\n    if [ -f $file ]; then\n        echo \"   ✓ $file exists\"\n    else\n        echo \"   ○ $file not found\"\n    fi\ndone\necho\n\necho \"Setup verification complete!\"\nRun it:\nchmod +x verify_bash_setup.sh\n./verify_bash_setup.sh",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Chapter 1: Installation and Environment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-01-installation-setup.html#common-setup-issues",
+    "href": "chapter-01-installation-setup.html#common-setup-issues",
+    "title": "2  Chapter 1: Installation and Environment Setup",
+    "section": "2.10 1.8 Common Setup Issues",
+    "text": "2.10 1.8 Common Setup Issues\n\n2.10.1 Issue 1: Command Not Found\nSymptom:\nbash: command: command not found\nSolutions:\n# Check if command exists\nwhich command\n\n# Check PATH\necho $PATH\n\n# Add to PATH\nexport PATH=\"/path/to/directory:$PATH\"\n\n\n2.10.2 Issue 2: Configuration Not Loading\nSymptom: Changes to .bashrc don’t take effect\nSolutions:\n# Reload configuration\nsource ~/.bashrc\n\n# Check which file is being loaded\necho $BASH_SOURCE\n\n# For login shells, edit .bash_profile instead\n\n\n2.10.3 Issue 3: Permission Denied\nSymptom:\nbash: ./script.sh: Permission denied\nSolution:\nchmod +x script.sh",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Chapter 1: Installation and Environment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-01-installation-setup.html#platform-specific-notes",
+    "href": "chapter-01-installation-setup.html#platform-specific-notes",
+    "title": "2  Chapter 1: Installation and Environment Setup",
+    "section": "2.11 1.9 Platform-Specific Notes",
+    "text": "2.11 1.9 Platform-Specific Notes\n\n2.11.1 MacOS Specifics\n# Apple Silicon (M1/M2) Homebrew location\n/opt/homebrew/bin\n\n# Intel Mac Homebrew location\n/usr/local/bin\n\n# System Bash location\n/bin/bash\n\n# Check architecture\nuname -m  # arm64 (Apple Silicon) or x86_64 (Intel)\n\n\n2.11.2 Linux Specifics\n# Find bash location\nwhich bash\ntype bash\n\n# Check if bash is login shell\necho $0  # Starts with - if login shell\n\n# Debian/Ubuntu specific\ndpkg -l | grep bash\n\n# RedHat/CentOS specific\nrpm -qa | grep bash",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Chapter 1: Installation and Environment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-01-installation-setup.html#key-takeaways",
+    "href": "chapter-01-installation-setup.html#key-takeaways",
+    "title": "2  Chapter 1: Installation and Environment Setup",
+    "section": "2.12 1.10 Key Takeaways",
+    "text": "2.12 1.10 Key Takeaways\n✓ Know your version - Different Bash versions behave differently\n✓ Update when possible - Newer versions have better error messages\n✓ Configure properly - Set up .bashrc and .bash_profile correctly\n✓ Install tools - ShellCheck and completion improve productivity\n✓ Verify setup - Test your environment before proceeding\n✓ Document differences - Note platform-specific behaviors",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Chapter 1: Installation and Environment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-01-installation-setup.html#quick-reference",
+    "href": "chapter-01-installation-setup.html#quick-reference",
+    "title": "2  Chapter 1: Installation and Environment Setup",
+    "section": "2.13 1.11 Quick Reference",
+    "text": "2.13 1.11 Quick Reference\n# Version info\nbash --version          # Full version\necho $BASH_VERSION      # Version variable\necho $SHELL            # Default shell\n\n# Configuration\n~/.bashrc              # Interactive non-login\n~/.bash_profile        # Login shell\nsource ~/.bashrc       # Reload config\n\n# Tools\nshellcheck script.sh   # Check syntax\nwhich command          # Find command location\ntype command           # Command info\n\n# PATH\necho $PATH             # View PATH\nexport PATH=\"dir:$PATH\" # Add to PATH\n\nEnd of Chapter 1\nNext: Chapter 2: Understanding Error Messages",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Chapter 1: Installation and Environment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-02-understanding-errors.html",
+    "href": "chapter-02-understanding-errors.html",
+    "title": "3  Chapter 2: Understanding Error Messages",
+    "section": "",
+    "text": "3.1 Decoding Bash Error Output",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Chapter 2: Understanding Error Messages</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-02-understanding-errors.html#overview",
+    "href": "chapter-02-understanding-errors.html#overview",
+    "title": "3  Chapter 2: Understanding Error Messages",
+    "section": "3.2 Overview",
+    "text": "3.2 Overview\nUnderstanding error messages is the first step in effective troubleshooting. Bash error messages follow patterns, and learning to decode them quickly will save you hours of debugging. This chapter teaches you to read, interpret, and act on Bash error messages.\nBy the end of this chapter, you’ll be able to: - Parse error message components - Identify error types quickly - Use debugging techniques effectively - Build systematic troubleshooting habits",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Chapter 2: Understanding Error Messages</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-02-understanding-errors.html#anatomy-of-an-error-message",
+    "href": "chapter-02-understanding-errors.html#anatomy-of-an-error-message",
+    "title": "3  Chapter 2: Understanding Error Messages",
+    "section": "3.3 2.1 Anatomy of an Error Message",
+    "text": "3.3 2.1 Anatomy of an Error Message\n\n3.3.1 Basic Error Structure\nA typical Bash error message has these components:\nscript.sh: line 15: command: command not found\n│         │        │        └─ Explanation\n│         │        └─ Problem location (command name)\n│         └─ Line number\n└─ Source (script name or bash)\n\n\n3.3.2 Common Error Prefixes\nbash:           # Error from bash itself\n./script.sh:    # Error from your script\ncommand:        # Error from external command\n-bash:          # Error in interactive bash",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Chapter 2: Understanding Error Messages</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-02-understanding-errors.html#error-types-and-categories",
+    "href": "chapter-02-understanding-errors.html#error-types-and-categories",
+    "title": "3  Chapter 2: Understanding Error Messages",
+    "section": "3.4 2.2 Error Types and Categories",
+    "text": "3.4 2.2 Error Types and Categories\n\n3.4.1 Syntax Errors\nPattern: syntax error near unexpected token\n# Example error\n./script.sh: line 5: syntax error near unexpected token `fi'\nCommon Causes: - Missing keywords (then, do, done, fi) - Unmatched quotes or brackets - Incorrect spacing\n\n\n\n3.4.2 Command Not Found Errors\nPattern: command: command not found\n# Example error\nbash: python3: command not found\nCommon Causes: - Command not installed - Not in PATH - Typo in command name - Missing execute permission\n\n\n\n3.4.3 Permission Errors\nPattern: Permission denied\n# Example error\nbash: ./script.sh: Permission denied\nCommon Causes: - File not executable (chmod +x needed) - Insufficient user permissions - Directory permissions prevent access\n\n\n\n3.4.4 File/Directory Errors\nPattern: No such file or directory\n# Example error\ncat: file.txt: No such file or directory\nCommon Causes: - File doesn’t exist - Wrong path (relative vs absolute) - Typo in filename - Hidden file (starts with .)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Chapter 2: Understanding Error Messages</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-02-understanding-errors.html#reading-stack-traces",
+    "href": "chapter-02-understanding-errors.html#reading-stack-traces",
+    "title": "3  Chapter 2: Understanding Error Messages",
+    "section": "3.5 2.3 Reading Stack Traces",
+    "text": "3.5 2.3 Reading Stack Traces\nWhen scripts call other scripts, you get a “stack trace”:\n# Example stack trace\n./main.sh: line 10: ./helper.sh: No such file or directory\nReading it: 1. Start at the innermost error (rightmost) 2. Work backward to find the root cause 3. Check each level for issues",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Chapter 2: Understanding Error Messages</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-02-understanding-errors.html#error-streams-stdout-vs-stderr",
+    "href": "chapter-02-understanding-errors.html#error-streams-stdout-vs-stderr",
+    "title": "3  Chapter 2: Understanding Error Messages",
+    "section": "3.6 2.4 Error Streams: stdout vs stderr",
+    "text": "3.6 2.4 Error Streams: stdout vs stderr\n\n3.6.1 Understanding Output Streams\n# stdout (standard output) = File descriptor 1\necho \"Normal output\"\n\n# stderr (standard error) = File descriptor 2\necho \"Error message\" &gt;&2\n\n# Both\ncommand 2&gt;&1  # Redirect stderr to stdout\n\n\n3.6.2 Redirecting Errors\n# Discard errors\ncommand 2&gt;/dev/null\n\n# Save errors to file\ncommand 2&gt;error.log\n\n# Save both output and errors\ncommand &&gt;output.log\n\n# Separate files\ncommand &gt;output.log 2&gt;error.log",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Chapter 2: Understanding Error Messages</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-02-understanding-errors.html#debugging-techniques",
+    "href": "chapter-02-understanding-errors.html#debugging-techniques",
+    "title": "3  Chapter 2: Understanding Error Messages",
+    "section": "3.7 2.5 Debugging Techniques",
+    "text": "3.7 2.5 Debugging Techniques\n\n3.7.1 Using set -x (Execution Trace)\n#!/bin/bash\n\n# Enable execution trace\nset -x\n\necho \"This will show\"\nvariable=\"test\"\necho $variable\n\n# Disable execution trace\nset +x\nOutput shows each command before execution:\n+ echo 'This will show'\nThis will show\n+ variable=test\n+ echo test\ntest\n\n\n\n3.7.2 Using set -e (Exit on Error)\n#!/bin/bash\n\n# Exit immediately if any command fails\nset -e\n\necho \"First command\"\nfalse  # This fails, script exits here\necho \"This won't execute\"\n\n\n\n3.7.3 Using set -u (Undefined Variables)\n#!/bin/bash\n\n# Treat unset variables as error\nset -u\n\nname=\"Alice\"\necho $name      # Works\necho $undefined # Error: unbound variable\n\n\n\n3.7.4 Combining Debug Options\n#!/bin/bash\n\n# Strict mode: exit on error, undefined variables, pipe failures\nset -euo pipefail\n\n# Your script here",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Chapter 2: Understanding Error Messages</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-02-understanding-errors.html#common-error-messages-reference",
+    "href": "chapter-02-understanding-errors.html#common-error-messages-reference",
+    "title": "3  Chapter 2: Understanding Error Messages",
+    "section": "3.8 2.6 Common Error Messages Reference",
+    "text": "3.8 2.6 Common Error Messages Reference\n\n3.8.1 Quick Reference Table\n\n\n\n\n\n\n\n\nError Message\nLikely Cause\nQuick Fix\n\n\n\n\ncommand not found\nNot in PATH or not installed\nCheck PATH, install command\n\n\nPermission denied\nNo execute permission\nchmod +x file\n\n\nNo such file or directory\nFile doesn’t exist\nCheck path and filename\n\n\nsyntax error\nCode syntax problem\nCheck brackets, quotes, keywords\n\n\nunexpected EOF\nMissing closing construct\nAdd fi, done, or esac\n\n\nunbound variable\nVariable not set\nInitialize variable or use ${var:-}\n\n\nbad substitution\nWrong variable syntax\nCheck ${} syntax\n\n\nbinary file\nTrying to source binary\nUse correct file type",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Chapter 2: Understanding Error Messages</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-02-understanding-errors.html#hands-on-error-message-detective",
+    "href": "chapter-02-understanding-errors.html#hands-on-error-message-detective",
+    "title": "3  Chapter 2: Understanding Error Messages",
+    "section": "3.9 2.7 Hands-On: Error Message Detective",
+    "text": "3.9 2.7 Hands-On: Error Message Detective\n\n3.9.1 Exercise Script\nSave this as error_detective.sh:\n#!/bin/bash\n\necho \"Error Message Detective\"\necho \"=======================\"\necho\n\n# Generate different errors\ntest_errors() {\n    echo \"1. Command not found error:\"\n    nonexistent_command 2&gt;&1 || echo \"   (Error demonstrated)\"\n    echo\n\n    echo \"2. Permission error:\"\n    touch /tmp/test_permission\n    chmod 000 /tmp/test_permission\n    cat /tmp/test_permission 2&gt;&1 || echo \"   (Error demonstrated)\"\n    rm /tmp/test_permission\n    echo\n\n    echo \"3. File not found:\"\n    cat nonexistent_file.txt 2&gt;&1 || echo \"   (Error demonstrated)\"\n    echo\n\n    echo \"4. Syntax error in subscript:\"\n    bash -c 'if true then echo \"missing semicolon\"; fi' 2&gt;&1 || echo \"   (Error demonstrated)\"\n}\n\ntest_errors\nRun it:\nchmod +x error_detective.sh\n./error_detective.sh",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Chapter 2: Understanding Error Messages</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-02-understanding-errors.html#diagnostic-tools",
+    "href": "chapter-02-understanding-errors.html#diagnostic-tools",
+    "title": "3  Chapter 2: Understanding Error Messages",
+    "section": "3.10 2.8 Diagnostic Tools",
+    "text": "3.10 2.8 Diagnostic Tools\n\n3.10.1 Using type to Understand Commands\n# Check what a command is\ntype ls        # Shows if alias, function, builtin, or external\ntype -a ls     # Shows all definitions\ntype -t ls     # Shows type only (alias/function/builtin/file)\n\n\n3.10.2 Using which and whereis\n# Find command location\nwhich python3\n\n# Find all related files\nwhereis python3\n\n\n3.10.3 Using file to Check File Types\n# Check file type\nfile script.sh\nfile /bin/bash",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Chapter 2: Understanding Error Messages</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-02-understanding-errors.html#building-an-error-log",
+    "href": "chapter-02-understanding-errors.html#building-an-error-log",
+    "title": "3  Chapter 2: Understanding Error Messages",
+    "section": "3.11 2.9 Building an Error Log",
+    "text": "3.11 2.9 Building an Error Log\n\n3.11.1 Error Logging Script\n#!/bin/bash\n\n# Setup error logging\nERROR_LOG=\"/tmp/script_errors.log\"\n\n# Function to log errors\nlog_error() {\n    local timestamp=$(date '+%Y-%m-%d %H:%M:%S')\n    echo \"[$timestamp] ERROR: $*\" | tee -a \"$ERROR_LOG\" &gt;&2\n}\n\n# Example usage\nif ! some_command; then\n    log_error \"some_command failed on line $LINENO\"\nfi",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Chapter 2: Understanding Error Messages</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-02-understanding-errors.html#key-takeaways",
+    "href": "chapter-02-understanding-errors.html#key-takeaways",
+    "title": "3  Chapter 2: Understanding Error Messages",
+    "section": "3.12 2.10 Key Takeaways",
+    "text": "3.12 2.10 Key Takeaways\n✓ Read error messages carefully - Every part has meaning\n✓ Identify error type - Syntax, command, permission, or file errors\n✓ Use debugging flags - set -x, set -e, set -u\n✓ Check stderr separately - Errors go to stderr, not stdout\n✓ Build systematic approach - Always start with the error message\n✓ Keep a reference - Common errors and solutions",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Chapter 2: Understanding Error Messages</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-02-understanding-errors.html#quick-reference-card",
+    "href": "chapter-02-understanding-errors.html#quick-reference-card",
+    "title": "3  Chapter 2: Understanding Error Messages",
+    "section": "3.13 2.11 Quick Reference Card",
+    "text": "3.13 2.11 Quick Reference Card\n# Debugging flags\nset -x          # Show commands before execution\nset -e          # Exit on first error\nset -u          # Error on undefined variables\nset -o pipefail # Catch errors in pipes\n\n# Check commands\ntype command    # What is this command?\nwhich command   # Where is this command?\nfile filename   # What type of file?\n\n# Redirect errors\n2&gt;/dev/null     # Discard errors\n2&gt;&1            # Combine stdout and stderr\n&&gt;file          # Save both to file\n\nEnd of Chapter 2\nNext: Chapter 3: Command Not Found Errors",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Chapter 2: Understanding Error Messages</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-03-command-not-found.html",
+    "href": "chapter-03-command-not-found.html",
+    "title": "4  Chapter 3: Command Not Found Errors",
+    "section": "",
+    "text": "4.1 Solving PATH and Command Execution Issues",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Chapter 3: Command Not Found Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-03-command-not-found.html#overview",
+    "href": "chapter-03-command-not-found.html#overview",
+    "title": "4  Chapter 3: Command Not Found Errors",
+    "section": "4.2 Overview",
+    "text": "4.2 Overview\n“Command not found” is one of the most frustrating Bash errors for beginners, yet it has straightforward causes and solutions. This chapter teaches you to diagnose and fix command execution issues on both MacOS and Linux.\nBy the end of this chapter, you’ll master: - Understanding the PATH variable - Installing missing commands - Fixing command availability issues - Handling custom scripts and executables - Platform-specific command differences",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Chapter 3: Command Not Found Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-03-command-not-found.html#understanding-path",
+    "href": "chapter-03-command-not-found.html#understanding-path",
+    "title": "4  Chapter 3: Command Not Found Errors",
+    "section": "4.3 3.1 Understanding PATH",
+    "text": "4.3 3.1 Understanding PATH\n\n4.3.1 What is PATH?\nPATH is an environment variable that tells Bash where to look for executable commands.\n# View your PATH\necho $PATH\n\n# Sample output:\n# /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin\nHow it works: - Bash searches directories in order (left to right) - First match is executed - If not found in any directory, you get “command not found”\n\n\n\n4.3.2 Viewing PATH Clearly\n#!/bin/bash\n# show_path.sh\n\necho \"Your PATH directories:\"\necho \"====================\"\necho \"$PATH\" | tr ':' '\\n' | nl\nOutput:\nYour PATH directories:\n====================\n     1  /usr/local/bin\n     2  /usr/bin\n     3  /bin\n     4  /usr/sbin\n     5  /sbin",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Chapter 3: Command Not Found Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-03-command-not-found.html#common-command-not-found-scenarios",
+    "href": "chapter-03-command-not-found.html#common-command-not-found-scenarios",
+    "title": "4  Chapter 3: Command Not Found Errors",
+    "section": "4.4 3.2 Common “Command Not Found” Scenarios",
+    "text": "4.4 3.2 Common “Command Not Found” Scenarios\n\n4.4.1 Scenario 1: Command Not Installed\nError:\n$ python3\nbash: python3: command not found\nDiagnosis:\n# Check if installed\nwhich python3\ntype python3\ncommand -v python3\nSolution:\nMacOS:\n# Install via Homebrew\nbrew install python3\n\n# Or use system Python 3\npython3 --version  # Usually pre-installed\nLinux (Ubuntu/Debian):\nsudo apt update\nsudo apt install python3\nLinux (CentOS/RHEL):\nsudo yum install python3\n\n\n\n4.4.2 Scenario 2: Command in Wrong Location\nError:\n$ myscript.sh\nbash: myscript.sh: command not found\nDiagnosis:\n# Check if file exists\nls -l myscript.sh\n\n# Check current directory\npwd\n\n# Try with explicit path\n./myscript.sh\nSolution:\n# Use ./ for current directory\n./myscript.sh\n\n# Or add to PATH\nexport PATH=\"$PATH:$(pwd)\"\n\n# Or use absolute path\n/full/path/to/myscript.sh\n\n\n\n4.4.3 Scenario 3: Permission Issues\nError:\n$ ./script.sh\nbash: ./script.sh: Permission denied\nDiagnosis:\n# Check permissions\nls -l script.sh\n\n# Output shows: -rw-r--r-- (not executable)\nSolution:\n# Make executable\nchmod +x script.sh\n\n# Now run it\n./script.sh\n\n\n\n4.4.4 Scenario 4: Wrong PATH\nError:\n$ mycommand\nbash: mycommand: command not found\nDiagnosis:\n# Find where command is\nfind /usr -name mycommand 2&gt;/dev/null\n\n# Found at: /usr/local/sbin/mycommand\n# But /usr/local/sbin is not in PATH\nSolution:\n# Temporary fix\nexport PATH=\"$PATH:/usr/local/sbin\"\n\n# Permanent fix (add to ~/.bashrc)\necho 'export PATH=\"$PATH:/usr/local/sbin\"' &gt;&gt; ~/.bashrc\nsource ~/.bashrc",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Chapter 3: Command Not Found Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-03-command-not-found.html#platform-specific-commands",
+    "href": "chapter-03-command-not-found.html#platform-specific-commands",
+    "title": "4  Chapter 3: Command Not Found Errors",
+    "section": "4.5 3.3 Platform-Specific Commands",
+    "text": "4.5 3.3 Platform-Specific Commands\n\n4.5.1 MacOS vs Linux Differences\n\n4.5.1.1 Package Managers\nMacOS:\n# Homebrew\nbrew install package\n\n# MacPorts (alternative)\nsudo port install package\nLinux:\n# Debian/Ubuntu\nsudo apt install package\n\n# RHEL/CentOS\nsudo yum install package\n\n# Fedora\nsudo dnf install package\n\n# Arch\nsudo pacman -S package\n\n\n\n4.5.1.2 Command Locations\nMacOS Homebrew paths:\n# Intel Macs\n/usr/local/bin\n/usr/local/sbin\n\n# Apple Silicon (M1/M2)\n/opt/homebrew/bin\n/opt/homebrew/sbin\nLinux standard paths:\n/bin          # Essential commands\n/usr/bin      # User commands\n/usr/local/bin # Locally installed\n/sbin         # System commands\n/usr/sbin     # System commands\n\n\n\n\n4.5.2 Finding Missing Commands\n\n4.5.2.1 Search Script\n#!/bin/bash\n# find_command.sh\n\ncommand_name=\"$1\"\n\nif [ -z \"$command_name\" ]; then\n    echo \"Usage: $0 &lt;command_name&gt;\"\n    exit 1\nfi\n\necho \"Searching for: $command_name\"\necho \"======================\"\necho\n\n# Check if in PATH\nif command -v \"$command_name\" &&gt;/dev/null; then\n    echo \"✓ Found in PATH:\"\n    which \"$command_name\"\n    echo\nfi\n\n# Search in common locations\necho \"Searching system...\"\nlocations=(\n    \"/bin\"\n    \"/usr/bin\"\n    \"/usr/local/bin\"\n    \"/opt/homebrew/bin\"\n    \"/sbin\"\n    \"/usr/sbin\"\n)\n\nfor loc in \"${locations[@]}\"; do\n    if [ -f \"$loc/$command_name\" ]; then\n        echo \"✓ Found: $loc/$command_name\"\n    fi\ndone\n\n# Search everywhere (may be slow)\necho\necho \"Full system search...\"\nfind /usr /opt -name \"$command_name\" -type f 2&gt;/dev/null | head -5",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Chapter 3: Command Not Found Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-03-command-not-found.html#managing-custom-scripts",
+    "href": "chapter-03-command-not-found.html#managing-custom-scripts",
+    "title": "4  Chapter 3: Command Not Found Errors",
+    "section": "4.6 3.4 Managing Custom Scripts",
+    "text": "4.6 3.4 Managing Custom Scripts\n\n4.6.1 Installing Custom Scripts\nStep 1: Create a bin directory\nmkdir -p ~/bin\nStep 2: Add to PATH\n# Add to ~/.bashrc\necho 'export PATH=\"$HOME/bin:$PATH\"' &gt;&gt; ~/.bashrc\nsource ~/.bashrc\nStep 3: Move or link your scripts\n# Move script\nmv myscript.sh ~/bin/\n\n# Or create symlink\nln -s /full/path/to/myscript.sh ~/bin/myscript\n\n# Make executable\nchmod +x ~/bin/myscript.sh\nStep 4: Use from anywhere\n# Now works from any directory\nmyscript.sh\n\n\n\n4.6.2 Script Template\n#!/bin/bash\n# template.sh\n\nset -euo pipefail\n\n# Script metadata\nSCRIPT_NAME=$(basename \"$0\")\nSCRIPT_DIR=$(cd \"$(dirname \"$0\")\" && pwd)\n\n# Help function\nshow_help() {\n    cat &lt;&lt; EOF\nUsage: $SCRIPT_NAME [OPTIONS] &lt;argument&gt;\n\nDescription of what this script does.\n\nOPTIONS:\n    -h, --help      Show this help message\n    -v, --verbose   Enable verbose output\n\nEXAMPLES:\n    $SCRIPT_NAME file.txt\n    $SCRIPT_NAME -v file.txt\nEOF\n}\n\n# Main function\nmain() {\n    # Your code here\n    echo \"Script running...\"\n}\n\n# Parse arguments\nwhile [[ $# -gt 0 ]]; do\n    case $1 in\n        -h|--help)\n            show_help\n            exit 0\n            ;;\n        -v|--verbose)\n            VERBOSE=true\n            shift\n            ;;\n        *)\n            ARGUMENT=\"$1\"\n            shift\n            ;;\n    esac\ndone\n\n# Run main function\nmain",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Chapter 3: Command Not Found Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-03-command-not-found.html#troubleshooting-path-issues",
+    "href": "chapter-03-command-not-found.html#troubleshooting-path-issues",
+    "title": "4  Chapter 3: Command Not Found Errors",
+    "section": "4.7 3.5 Troubleshooting PATH Issues",
+    "text": "4.7 3.5 Troubleshooting PATH Issues\n\n4.7.1 PATH Diagnostic Script\n#!/bin/bash\n# diagnose_path.sh\n\necho \"PATH Diagnostics\"\necho \"================\"\necho\n\n# Show current PATH\necho \"Current PATH:\"\necho \"$PATH\" | tr ':' '\\n' | nl\necho\n\n# Check each directory\necho \"Checking PATH directories:\"\necho \"--------------------------\"\n\nIFS=':' read -ra DIRS &lt;&lt;&lt; \"$PATH\"\nfor dir in \"${DIRS[@]}\"; do\n    if [ -d \"$dir\" ]; then\n        count=$(ls -1 \"$dir\" 2&gt;/dev/null | wc -l)\n        echo \"✓ $dir ($count commands)\"\n    else\n        echo \"✗ $dir (doesn't exist)\"\n    fi\ndone\necho\n\n# Find duplicates\necho \"Checking for duplicates:\"\necho \"------------------------\"\necho \"$PATH\" | tr ':' '\\n' | sort | uniq -d | while read dup; do\n    [ -n \"$dup\" ] && echo \"⚠ Duplicate: $dup\"\ndone\n\n# Check common missing directories\necho\necho \"Common directories not in PATH:\"\necho \"--------------------------------\"\ncommon_dirs=(\n    \"$HOME/bin\"\n    \"$HOME/.local/bin\"\n    \"/usr/local/bin\"\n    \"/opt/homebrew/bin\"\n)\n\nfor dir in \"${common_dirs[@]}\"; do\n    if [ -d \"$dir\" ] && [[ \":$PATH:\" != *\":$dir:\"* ]]; then\n        echo \"⚠ $dir exists but not in PATH\"\n    fi\ndone\n\n\n\n4.7.2 Fixing PATH Issues\n#!/bin/bash\n# fix_path.sh\n\n# Backup current PATH\necho \"Current PATH:\"\necho \"$PATH\"\necho\n\n# Clean and rebuild PATH\nclean_path() {\n    # Remove duplicates while preserving order\n    NEW_PATH=$(echo \"$PATH\" | tr ':' '\\n' | awk '!seen[$0]++' | tr '\\n' ':' | sed 's/:$//')\n    echo \"Cleaned PATH (duplicates removed):\"\n    echo \"$NEW_PATH\"\n}\n\n# Add directory to PATH if not present\nadd_to_path() {\n    local dir=\"$1\"\n\n    if [ -d \"$dir\" ] && [[ \":$PATH:\" != *\":$dir:\"* ]]; then\n        export PATH=\"$dir:$PATH\"\n        echo \"✓ Added $dir to PATH\"\n    else\n        echo \"⊘ $dir already in PATH or doesn't exist\"\n    fi\n}\n\n# Recommend PATH additions\necho \"Recommended additions:\"\necho \"----------------------\"\nadd_to_path \"$HOME/bin\"\nadd_to_path \"$HOME/.local/bin\"\n\nif [[ \"$OSTYPE\" == \"darwin\"* ]]; then\n    # MacOS\n    add_to_path \"/opt/homebrew/bin\"\n    add_to_path \"/usr/local/bin\"\nfi\n\necho\necho \"To make permanent, add to ~/.bashrc:\"\necho \"export PATH=\\\"$PATH\\\"\"",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Chapter 3: Command Not Found Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-03-command-not-found.html#command-alternatives-and-aliases",
+    "href": "chapter-03-command-not-found.html#command-alternatives-and-aliases",
+    "title": "4  Chapter 3: Command Not Found Errors",
+    "section": "4.8 3.6 Command Alternatives and Aliases",
+    "text": "4.8 3.6 Command Alternatives and Aliases\n\n4.8.1 Finding Alternative Commands\n#!/bin/bash\n# find_alternatives.sh\n\ncommand=\"$1\"\n\necho \"Finding alternatives for: $command\"\necho \"==================================\"\necho\n\n# Platform detection\nif [[ \"$OSTYPE\" == \"darwin\"* ]]; then\n    echo \"Platform: MacOS\"\n    case \"$command\" in\n        ll)\n            echo \"Alias suggestion:\"\n            echo \"  alias ll='ls -lah'\"\n            ;;\n        python)\n            echo \"Use: python3\"\n            which python3\n            ;;\n        sed)\n            echo \"MacOS uses BSD sed\"\n            echo \"For GNU sed: brew install gnu-sed\"\n            ;;\n    esac\nelse\n    echo \"Platform: Linux\"\n    case \"$command\" in\n        ll)\n            echo \"May need alias:\"\n            echo \"  alias ll='ls -lah'\"\n            ;;\n        open)\n            echo \"Use: xdg-open\"\n            ;;\n    esac\nfi\n\n\n\n4.8.2 Creating Useful Aliases\nAdd these to ~/.bashrc:\n# Navigation aliases\nalias ..='cd ..'\nalias ...='cd ../..'\nalias ll='ls -lah'\nalias la='ls -A'\n\n# Safety aliases\nalias rm='rm -i'\nalias cp='cp -i'\nalias mv='mv -i'\n\n# Shortcuts\nalias h='history'\nalias j='jobs'\nalias c='clear'\n\n# Git aliases\nalias gs='git status'\nalias ga='git add'\nalias gc='git commit'\n\n# Platform-specific\nif [[ \"$OSTYPE\" == \"darwin\"* ]]; then\n    alias updatebrew='brew update && brew upgrade'\nelse\n    alias update='sudo apt update && sudo apt upgrade'\nfi\n\n# Functions as aliases\n# Extract any archive\nextract() {\n    if [ -f \"$1\" ]; then\n        case \"$1\" in\n            *.tar.bz2)   tar xjf \"$1\"    ;;\n            *.tar.gz)    tar xzf \"$1\"    ;;\n            *.bz2)       bunzip2 \"$1\"    ;;\n            *.rar)       unrar x \"$1\"    ;;\n            *.gz)        gunzip \"$1\"     ;;\n            *.tar)       tar xf \"$1\"     ;;\n            *.tbz2)      tar xjf \"$1\"    ;;\n            *.tgz)       tar xzf \"$1\"    ;;\n            *.zip)       unzip \"$1\"      ;;\n            *.Z)         uncompress \"$1\" ;;\n            *.7z)        7z x \"$1\"       ;;\n            *)           echo \"'$1' cannot be extracted\" ;;\n        esac\n    else\n        echo \"'$1' is not a valid file\"\n    fi\n}",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Chapter 3: Command Not Found Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-03-command-not-found.html#installing-common-commands",
+    "href": "chapter-03-command-not-found.html#installing-common-commands",
+    "title": "4  Chapter 3: Command Not Found Errors",
+    "section": "4.9 3.7 Installing Common Commands",
+    "text": "4.9 3.7 Installing Common Commands\n\n4.9.1 Developer Tools\nMacOS:\n# Install Xcode Command Line Tools\nxcode-select --install\n\n# Install Homebrew\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\n# Essential commands\nbrew install git wget curl tree jq\nLinux:\n# Ubuntu/Debian\nsudo apt install build-essential git wget curl tree jq\n\n# CentOS/RHEL\nsudo yum groupinstall \"Development Tools\"\nsudo yum install git wget curl tree jq\n\n\n\n4.9.2 Quick Install Reference\n\n\n\n\n\n\n\n\n\nCommand\nMacOS\nUbuntu/Debian\nCentOS/RHEL\n\n\n\n\ngit\nbrew install git\napt install git\nyum install git\n\n\npython3\nbrew install python3\napt install python3\nyum install python3\n\n\nnode\nbrew install node\napt install nodejs\nyum install nodejs\n\n\ndocker\nbrew install docker\napt install docker.io\nyum install docker\n\n\nvim\nbrew install vim\napt install vim\nyum install vim",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Chapter 3: Command Not Found Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-03-command-not-found.html#key-takeaways",
+    "href": "chapter-03-command-not-found.html#key-takeaways",
+    "title": "4  Chapter 3: Command Not Found Errors",
+    "section": "4.10 3.8 Key Takeaways",
+    "text": "4.10 3.8 Key Takeaways\n✓ Understand PATH - Know where Bash looks for commands\n✓ Use ./ for local scripts - Current directory not in PATH by default\n✓ Make scripts executable - chmod +x before running\n✓ Add ~/bin to PATH - For custom scripts\n✓ Check with which - Find command locations\n✓ Platform differences - MacOS and Linux have different commands\n✓ Install via package managers - brew (MacOS), apt/yum (Linux)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Chapter 3: Command Not Found Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-03-command-not-found.html#quick-reference",
+    "href": "chapter-03-command-not-found.html#quick-reference",
+    "title": "4  Chapter 3: Command Not Found Errors",
+    "section": "4.11 3.9 Quick Reference",
+    "text": "4.11 3.9 Quick Reference\n# Check if command exists\nwhich command\ncommand -v command\ntype command\n\n# Check PATH\necho $PATH\necho $PATH | tr ':' '\\n'\n\n# Add to PATH (temporary)\nexport PATH=\"$PATH:/new/dir\"\n\n# Add to PATH (permanent)\necho 'export PATH=\"$PATH:/new/dir\"' &gt;&gt; ~/.bashrc\n\n# Run local script\n./script.sh\n\n# Make executable\nchmod +x script.sh\n\n# Find command location\nfind /usr -name command 2&gt;/dev/null\n\nEnd of Chapter 3\nNext: Chapter 4: Permission and Access Errors",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Chapter 3: Command Not Found Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-04-permission-errors.html",
+    "href": "chapter-04-permission-errors.html",
+    "title": "5  Chapter 4: Permission and Access Errors",
+    "section": "",
+    "text": "5.1 Mastering File Permissions, Ownership, and Security",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Chapter 4: Permission and Access Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-04-permission-errors.html#overview",
+    "href": "chapter-04-permission-errors.html#overview",
+    "title": "5  Chapter 4: Permission and Access Errors",
+    "section": "5.2 Overview",
+    "text": "5.2 Overview\nPermission errors are among the most common obstacles in Bash scripting. Understanding Unix/Linux permissions is crucial for both MacOS and Linux users. This chapter demystifies file permissions, ownership, and security contexts.\nBy the end of this chapter, you’ll master: - Reading and setting file permissions - Understanding ownership (user, group) - Using chmod, chown, and chgrp effectively - Handling sudo and privilege escalation - Dealing with special permissions (setuid, setgid, sticky bit) - Platform-specific permission systems (SELinux, AppArmor)",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Chapter 4: Permission and Access Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-04-permission-errors.html#understanding-unix-permissions",
+    "href": "chapter-04-permission-errors.html#understanding-unix-permissions",
+    "title": "5  Chapter 4: Permission and Access Errors",
+    "section": "5.3 4.1 Understanding Unix Permissions",
+    "text": "5.3 4.1 Understanding Unix Permissions\n\n5.3.1 The Permission Model\nEvery file and directory has three permission sets:\n-rwxr-xr-x\n│││││││││\n│││││││└└─ Other (everyone else)\n││││││└───┘\n││││└└───── Group\n│││└───────┘\n││└──────── Owner\n│└───────── Type (- file, d directory, l link)\n└────────── Special permissions\nPermission Types: - r (read) = 4 - w (write) = 2 - x (execute) = 1 - - (no permission) = 0\n\n\n\n5.3.2 Reading Permissions\n#!/bin/bash\n# read_permissions.sh\n\nexplain_permissions() {\n    local file=\"$1\"\n\n    if [[ ! -e \"$file\" ]]; then\n        echo \"File not found: $file\"\n        return 1\n    fi\n\n    # Get permissions in long format\n    local perms=$(ls -ld \"$file\")\n\n    echo \"File: $file\"\n    echo \"Permissions: $perms\"\n    echo\n\n    # Extract permission string\n    local perm_str=$(echo \"$perms\" | awk '{print $1}')\n\n    echo \"Breakdown:\"\n    echo \"  Type: ${perm_str:0:1}\"\n    echo \"  Owner: ${perm_str:1:3}\"\n    echo \"  Group: ${perm_str:4:3}\"\n    echo \"  Other: ${perm_str:7:3}\"\n    echo\n\n    # Numeric representation\n    local owner_num=$(( (${perm_str:1:1} == 'r' ? 4 : 0) + (${perm_str:2:1} == 'w' ? 2 : 0) + (${perm_str:3:1} == 'x' ? 1 : 0) ))\n    local group_num=$(( (${perm_str:4:1} == 'r' ? 4 : 0) + (${perm_str:5:1} == 'w' ? 2 : 0) + (${perm_str:6:1} == 'x' ? 1 : 0) ))\n    local other_num=$(( (${perm_str:7:1} == 'r' ? 4 : 0) + (${perm_str:8:1} == 'w' ? 2 : 0) + (${perm_str:9:1} == 'x' ? 1 : 0) ))\n\n    echo \"Numeric: $owner_num$group_num$other_num\"\n}\n\n# Test\nexplain_permissions \"$1\"",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Chapter 4: Permission and Access Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-04-permission-errors.html#common-permission-errors",
+    "href": "chapter-04-permission-errors.html#common-permission-errors",
+    "title": "5  Chapter 4: Permission and Access Errors",
+    "section": "5.4 4.2 Common Permission Errors",
+    "text": "5.4 4.2 Common Permission Errors\n\n5.4.1 Error 1: Permission Denied (Execution)\nError:\n$ ./script.sh\nbash: ./script.sh: Permission denied\nDiagnosis:\nls -l script.sh\n# Output: -rw-r--r--  (not executable)\nSolution:\nchmod +x script.sh\n# or\nchmod 755 script.sh\n\n\n\n5.4.2 Error 2: Permission Denied (Reading)\nError:\n$ cat file.txt\ncat: file.txt: Permission denied\nDiagnosis:\nls -l file.txt\n# Output: --w-------  (write only, no read)\nSolution:\nchmod +r file.txt\n# or\nchmod 644 file.txt\n\n\n\n5.4.3 Error 3: Permission Denied (Directory)\nError:\n$ cd /restricted\nbash: cd: /restricted: Permission denied\nDiagnosis:\nls -ld /restricted\n# Output: drw-------  (no execute on directory)\nSolution:\n# Directory execute permission needed to cd into it\nchmod +x /restricted\n# or\nchmod 755 /restricted",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Chapter 4: Permission and Access Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-04-permission-errors.html#chmod-command-deep-dive",
+    "href": "chapter-04-permission-errors.html#chmod-command-deep-dive",
+    "title": "5  Chapter 4: Permission and Access Errors",
+    "section": "5.5 4.3 chmod Command Deep Dive",
+    "text": "5.5 4.3 chmod Command Deep Dive\n\n5.5.1 Symbolic Mode\n# Format: chmod [who][op][permission] file\n\n# Who:\nu = user/owner\ng = group\no = others\na = all (default)\n\n# Operations:\n+ = add permission\n- = remove permission\n= = set exact permission\n\n# Permissions:\nr = read\nw = write\nx = execute\n\n# Examples:\nchmod u+x script.sh        # Add execute for owner\nchmod g-w file.txt         # Remove write for group\nchmod o=r file.txt         # Set other to read only\nchmod a+x script.sh        # Add execute for all\nchmod u+rw,g+r file.txt    # Multiple operations\n\n\n\n5.5.2 Numeric Mode\n# Format: chmod ### file\n# Each digit is sum of: r(4) + w(2) + x(1)\n\nchmod 777 file  # rwxrwxrwx (all permissions)\nchmod 755 file  # rwxr-xr-x (owner full, others read+execute)\nchmod 644 file  # rw-r--r-- (owner read+write, others read)\nchmod 600 file  # rw------- (owner only)\nchmod 700 dir   # rwx------ (private directory)\nchmod 666 file  # rw-rw-rw- (all can read/write)\nchmod 444 file  # r--r--r-- (read-only for all)\nCommon Patterns:\n# Scripts\nchmod 755 script.sh  # Executable by all, writable by owner\n\n# Configuration files\nchmod 644 config.ini # Readable by all, writable by owner\n\n# Private files\nchmod 600 secrets.txt # Owner only\n\n# Directories\nchmod 755 public_dir/    # Accessible by all\nchmod 700 private_dir/   # Owner only\n\n\n\n5.5.3 Recursive chmod\n# Apply to directory and all contents\nchmod -R 755 directory/\n\n# Apply different permissions to files and directories\nfind directory/ -type f -exec chmod 644 {} \\;  # Files\nfind directory/ -type d -exec chmod 755 {} \\;  # Directories",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Chapter 4: Permission and Access Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-04-permission-errors.html#file-ownership",
+    "href": "chapter-04-permission-errors.html#file-ownership",
+    "title": "5  Chapter 4: Permission and Access Errors",
+    "section": "5.6 4.4 File Ownership",
+    "text": "5.6 4.4 File Ownership\n\n5.6.1 Understanding chown\n# View ownership\nls -l file.txt\n# Output: -rw-r--r-- 1 alice developers 1234 Nov 1 10:00 file.txt\n#                      │     │\n#                      │     └─ Group\n#                      └─ Owner\n\n# Change owner\nsudo chown bob file.txt\n\n# Change owner and group\nsudo chown bob:users file.txt\n\n# Change group only\nsudo chgrp users file.txt\n# or\nsudo chown :users file.txt\n\n# Recursive\nsudo chown -R bob:users directory/\n\n\n\n5.6.2 Ownership Troubleshooting Script\n#!/bin/bash\n# check_ownership.sh\n\nfile=\"$1\"\n\nif [[ ! -e \"$file\" ]]; then\n    echo \"File not found: $file\"\n    exit 1\nfi\n\necho \"Ownership Information\"\necho \"====================\"\necho\n\n# Get file info\nowner=$(stat -c '%U' \"$file\" 2&gt;/dev/null || stat -f '%Su' \"$file\")\ngroup=$(stat -c '%G' \"$file\" 2&gt;/dev/null || stat -f '%Sg' \"$file\")\nperms=$(stat -c '%a' \"$file\" 2&gt;/dev/null || stat -f '%Lp' \"$file\")\n\necho \"File: $file\"\necho \"Owner: $owner\"\necho \"Group: $group\"\necho \"Permissions: $perms\"\necho\n\n# Check if current user can access\ncurrent_user=$(whoami)\nuser_groups=$(groups)\n\necho \"Current user: $current_user\"\necho \"User's groups: $user_groups\"\necho\n\n# Determine access\nif [[ \"$owner\" == \"$current_user\" ]]; then\n    echo \"✓ You own this file\"\nelif echo \"$user_groups\" | grep -q \"$group\"; then\n    echo \"✓ You are in the group ($group)\"\nelse\n    echo \"✗ You don't own this file or belong to its group\"\n    echo \"  You rely on 'other' permissions\"\nfi",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Chapter 4: Permission and Access Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-04-permission-errors.html#using-sudo-properly",
+    "href": "chapter-04-permission-errors.html#using-sudo-properly",
+    "title": "5  Chapter 4: Permission and Access Errors",
+    "section": "5.7 4.5 Using sudo Properly",
+    "text": "5.7 4.5 Using sudo Properly\n\n5.7.1 When to Use sudo\n# System files (require root)\nsudo vim /etc/hosts\nsudo systemctl restart service\n\n# Installing software\nsudo apt install package\n\n# Changing ownership\nsudo chown user:group file\n\n# System directories\nsudo mkdir /opt/myapp\nsudo cp file /usr/local/bin/\n\n\n\n5.7.2 sudo Best Practices\n#!/bin/bash\n# sudo_best_practices.sh\n\n# ✗ BAD: Running entire script as root\n# sudo ./script.sh\n\n# ✓ GOOD: Only elevate when needed\ncheck_root_needed() {\n    if [[ $EUID -eq 0 ]]; then\n        echo \"✗ Don't run entire script as root\"\n        exit 1\n    fi\n}\n\ninstall_file() {\n    local file=\"$1\"\n    local dest=\"$2\"\n\n    # Regular operations\n    echo \"Preparing file...\"\n    cp \"$file\" \"/tmp/temp_file\"\n\n    # Only use sudo when necessary\n    echo \"Installing (requires sudo)...\"\n    sudo cp \"/tmp/temp_file\" \"$dest\"\n    sudo chmod 644 \"$dest\"\n\n    # Cleanup without sudo\n    rm \"/tmp/temp_file\"\n}\n\ncheck_root_needed\n\n\n\n5.7.3 Checking sudo Access\n#!/bin/bash\n# check_sudo.sh\n\necho \"Checking sudo access...\"\n\n# Check if user has sudo\nif sudo -n true 2&gt;/dev/null; then\n    echo \"✓ You have sudo access (no password needed)\"\nelif sudo -v 2&gt;/dev/null; then\n    echo \"✓ You have sudo access\"\nelse\n    echo \"✗ You don't have sudo access\"\n    echo \"  Contact your administrator\"\n    exit 1\nfi\n\n# Show sudo privileges\necho\necho \"Your sudo privileges:\"\nsudo -l 2&gt;/dev/null | grep -v \"may run\" | head -5",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Chapter 4: Permission and Access Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-04-permission-errors.html#special-permissions",
+    "href": "chapter-04-permission-errors.html#special-permissions",
+    "title": "5  Chapter 4: Permission and Access Errors",
+    "section": "5.8 4.6 Special Permissions",
+    "text": "5.8 4.6 Special Permissions\n\n5.8.1 Setuid, Setgid, and Sticky Bit\n# Setuid (4000): Execute as file owner\nchmod u+s file\nchmod 4755 file\n# Example: -rwsr-xr-x (note 's' instead of 'x')\n\n# Setgid (2000): Execute as file's group\nchmod g+s file\nchmod 2755 file\n# Example: -rwxr-sr-x\n\n# Sticky bit (1000): Only owner can delete\nchmod +t directory\nchmod 1777 directory\n# Example: drwxrwxrwt (note 't' at end)\nCommon Uses:\n# /tmp directory (sticky bit)\nls -ld /tmp\n# drwxrwxrwt  # Anyone can write, only owner can delete their files\n\n# Shared directory with setgid\nchmod 2775 /shared/project\n# New files inherit group ownership\n\n\n\n5.8.2 Demonstration Script\n#!/bin/bash\n# demonstrate_special_perms.sh\n\ndemo_dir=\"/tmp/perms_demo_$$\"\nmkdir -p \"$demo_dir\"\ncd \"$demo_dir\" || exit\n\necho \"Special Permissions Demo\"\necho \"=======================\"\necho\n\n# Regular directory\nmkdir regular_dir\nchmod 777 regular_dir\necho \"1. Regular directory (777):\"\nls -ld regular_dir\necho\n\n# Sticky bit directory\nmkdir sticky_dir\nchmod 1777 sticky_dir\necho \"2. Sticky bit directory (1777):\"\nls -ld sticky_dir\necho \"   Notice the 't' at the end\"\necho \"   Only file owner can delete their files\"\necho\n\n# Setgid directory\nmkdir setgid_dir\nchmod 2775 setgid_dir\necho \"3. Setgid directory (2775):\"\nls -ld setgid_dir\necho \"   Notice the 's' in group permissions\"\necho \"   New files inherit group ownership\"\necho\n\n# Cleanup\ncd /\nrm -rf \"$demo_dir\"",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Chapter 4: Permission and Access Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-04-permission-errors.html#macos-specific-permissions",
+    "href": "chapter-04-permission-errors.html#macos-specific-permissions",
+    "title": "5  Chapter 4: Permission and Access Errors",
+    "section": "5.9 4.7 MacOS-Specific Permissions",
+    "text": "5.9 4.7 MacOS-Specific Permissions\n\n5.9.1 System Integrity Protection (SIP)\nMacOS has additional security:\n# Check SIP status\ncsrutil status\n\n# Protected directories:\n/System\n/usr (except /usr/local)\n/bin\n/sbin\n\n# Even sudo can't modify these when SIP is enabled\n\n\n\n5.9.2 Extended Attributes (xattr)\nMacOS uses extended attributes:\n# List extended attributes\nxattr file.txt\nls -l@ file.txt\n\n# Common attribute: quarantine (downloaded files)\n# Remove quarantine\nxattr -d com.apple.quarantine file.txt\n\n# Remove all extended attributes\nxattr -c file.txt\n\n# Recursively remove\nxattr -cr directory/\n\n\n\n5.9.3 ACL (Access Control Lists)\n# View ACLs\nls -le file.txt\n\n# Add ACL\nchmod +a \"user:username allow read,write\" file.txt\n\n# Remove ACL\nchmod -a \"user:username allow read,write\" file.txt\n\n# Remove all ACLs\nchmod -N file.txt",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Chapter 4: Permission and Access Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-04-permission-errors.html#linux-security-contexts-selinux-and-apparmor",
+    "href": "chapter-04-permission-errors.html#linux-security-contexts-selinux-and-apparmor",
+    "title": "5  Chapter 4: Permission and Access Errors",
+    "section": "5.10 4.8 Linux Security Contexts: SELinux and AppArmor",
+    "text": "5.10 4.8 Linux Security Contexts: SELinux and AppArmor\n\n5.10.1 SELinux (CentOS/RHEL/Fedora)\n# Check SELinux status\ngetenforce\n# Output: Enforcing, Permissive, or Disabled\n\n# View file context\nls -Z file.txt\n\n# Common error with SELinux:\n# Permission denied despite correct Unix permissions\n\n# Fix context\nrestorecon -v file.txt\n\n# Change context temporarily\nchcon -t httpd_sys_content_t /var/www/html/index.html\n\n# Make persistent\nsemanage fcontext -a -t httpd_sys_content_t \"/var/www/html(/.*)?\"\nrestorecon -Rv /var/www/html\n\n# Temporarily disable (testing only!)\nsudo setenforce 0  # Permissive mode\nsudo setenforce 1  # Enforcing mode\n\n\n\n5.10.2 AppArmor (Ubuntu/Debian)\n# Check AppArmor status\nsudo aa-status\n\n# View profile status\nsudo aa-status | grep /usr/bin/program\n\n# Set to complain mode (log but don't block)\nsudo aa-complain /usr/bin/program\n\n# Set to enforce mode\nsudo aa-enforce /usr/bin/program\n\n# Disable profile\nsudo ln -s /etc/apparmor.d/usr.bin.program /etc/apparmor.d/disable/\nsudo apparmor_parser -R /etc/apparmor.d/usr.bin.program\n\n# Check denials\nsudo grep DENIED /var/log/syslog",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Chapter 4: Permission and Access Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-04-permission-errors.html#comprehensive-permission-troubleshooter",
+    "href": "chapter-04-permission-errors.html#comprehensive-permission-troubleshooter",
+    "title": "5  Chapter 4: Permission and Access Errors",
+    "section": "5.11 4.9 Comprehensive Permission Troubleshooter",
+    "text": "5.11 4.9 Comprehensive Permission Troubleshooter\n#!/bin/bash\n# permission_doctor.sh\n\ntarget=\"$1\"\n\nif [[ -z \"$target\" ]]; then\n    echo \"Usage: $0 &lt;file_or_directory&gt;\"\n    exit 1\nfi\n\necho \"╔══════════════════════════════════════════════════════════╗\"\necho \"║         PERMISSION DIAGNOSTIC REPORT                     ║\"\necho \"╚══════════════════════════════════════════════════════════╝\"\necho\necho \"Target: $target\"\necho \"═══════════════════════════════════════════════════════════\"\necho\n\n# Check existence\nif [[ ! -e \"$target\" ]]; then\n    echo \"✗ Target does not exist!\"\n    exit 1\nfi\n\necho \"✓ Target exists\"\necho\n\n# 1. Basic permissions\necho \"1. PERMISSIONS\"\necho \"───────────────────────────────────────────────────────────\"\nls -ld \"$target\"\necho\n\n# 2. Ownership\nowner=$(stat -c '%U' \"$target\" 2&gt;/dev/null || stat -f '%Su' \"$target\")\ngroup=$(stat -c '%G' \"$target\" 2&gt;/dev/null || stat -f '%Sg' \"$target\")\n\necho \"2. OWNERSHIP\"\necho \"───────────────────────────────────────────────────────────\"\necho \"Owner: $owner\"\necho \"Group: $group\"\necho\n\nif [[ \"$(whoami)\" == \"$owner\" ]]; then\n    echo \"✓ You own this file\"\nelse\n    echo \"✗ You don't own this file (owner: $owner)\"\nfi\n\nif groups | grep -q \"\\b$group\\b\"; then\n    echo \"✓ You are in the group ($group)\"\nelse\n    echo \"✗ You are not in the group ($group)\"\nfi\necho\n\n# 3. Your access\necho \"3. YOUR ACCESS\"\necho \"───────────────────────────────────────────────────────────\"\n[[ -r \"$target\" ]] && echo \"✓ Read\" || echo \"✗ Read\"\n[[ -w \"$target\" ]] && echo \"✓ Write\" || echo \"✗ Write\"\n[[ -x \"$target\" ]] && echo \"✓ Execute\" || echo \"✗ Execute\"\necho\n\n# 4. Parent directory\nparent=$(dirname \"$target\")\necho \"4. PARENT DIRECTORY ACCESS\"\necho \"───────────────────────────────────────────────────────────\"\necho \"Parent: $parent\"\nls -ld \"$parent\"\necho\n\nif [[ ! -x \"$parent\" ]]; then\n    echo \"⚠ WARNING: No execute permission on parent directory!\"\n    echo \"   You need execute permission to access files inside\"\nfi\necho\n\n# 5. Recommendations\necho \"5. RECOMMENDATIONS\"\necho \"───────────────────────────────────────────────────────────\"\n\nif [[ ! -r \"$target\" ]]; then\n    echo \"To add read permission:\"\n    if [[ \"$(whoami)\" == \"$owner\" ]]; then\n        echo \"  chmod u+r $target\"\n    else\n        echo \"  sudo chmod o+r $target  # For everyone\"\n    fi\nfi\n\nif [[ ! -w \"$target\" ]]; then\n    echo \"To add write permission:\"\n    if [[ \"$(whoami)\" == \"$owner\" ]]; then\n        echo \"  chmod u+w $target\"\n    else\n        echo \"  sudo chmod o+w $target  # For everyone (risky)\"\n    fi\nfi\n\nif [[ -f \"$target\" ]] && [[ ! -x \"$target\" ]]; then\n    echo \"To make executable:\"\n    echo \"  chmod +x $target\"\nfi\n\necho\necho \"═══════════════════════════════════════════════════════════\"",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Chapter 4: Permission and Access Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-04-permission-errors.html#key-takeaways",
+    "href": "chapter-04-permission-errors.html#key-takeaways",
+    "title": "5  Chapter 4: Permission and Access Errors",
+    "section": "5.12 4.10 Key Takeaways",
+    "text": "5.12 4.10 Key Takeaways\n✓ Understand the permission model - Owner, Group, Other with Read, Write, Execute\n✓ Use chmod correctly - Both numeric (755) and symbolic (u+x) modes\n✓ Know when to use sudo - Only for system files and administrative tasks\n✓ Check ownership - Use ls -l to see owner and group\n✓ Be careful with special permissions - Setuid, setgid, sticky bit\n✓ MacOS has extra security - SIP, extended attributes, ACLs\n✓ Linux has security contexts - SELinux, AppArmor\n✓ Never use chmod 777 - Almost always a security risk",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Chapter 4: Permission and Access Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-04-permission-errors.html#quick-reference",
+    "href": "chapter-04-permission-errors.html#quick-reference",
+    "title": "5  Chapter 4: Permission and Access Errors",
+    "section": "5.13 4.11 Quick Reference",
+    "text": "5.13 4.11 Quick Reference\n# View permissions\nls -l file\nls -ld directory\nstat file\n\n# chmod (symbolic)\nchmod u+x file      # Add execute for owner\nchmod g-w file      # Remove write for group\nchmod o=r file      # Set other to read-only\nchmod a+r file      # Add read for all\n\n# chmod (numeric)\nchmod 755 file      # rwxr-xr-x\nchmod 644 file      # rw-r--r--\nchmod 600 file      # rw-------\n\n# chown\nsudo chown user file\nsudo chown user:group file\nsudo chgrp group file\n\n# Special permissions\nchmod u+s file      # Setuid\nchmod g+s directory # Setgid\nchmod +t directory  # Sticky bit\n\n# Check access\n[ -r file ] && echo \"Readable\"\n[ -w file ] && echo \"Writable\"\n[ -x file ] && echo \"Executable\"\n\nEnd of Chapter 4\nNext: Chapter 5: File and Directory Errors",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Chapter 4: Permission and Access Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-05-file-directory-errors.html",
+    "href": "chapter-05-file-directory-errors.html",
+    "title": "6  Chapter 5: File and Directory Errors",
+    "section": "",
+    "text": "6.1 Mastering Path Resolution and Filesystem Navigation",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Chapter 5: File and Directory Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-05-file-directory-errors.html#overview",
+    "href": "chapter-05-file-directory-errors.html#overview",
+    "title": "6  Chapter 5: File and Directory Errors",
+    "section": "6.2 Overview",
+    "text": "6.2 Overview\n“No such file or directory” is one of the most common errors in Bash, yet it encompasses a wide variety of underlying issues. This chapter will teach you to diagnose and fix path-related errors, understand filesystem quirks, and handle tricky filenames on both MacOS and Linux.\nBy the end of this chapter, you’ll master: - Absolute vs. relative path resolution - Handling spaces and special characters in filenames - Symbolic and hard link troubleshooting - Case sensitivity differences - Hidden files and directories - Globbing patterns and wildcards - Platform-specific filesystem behaviors",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Chapter 5: File and Directory Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-05-file-directory-errors.html#understanding-no-such-file-or-directory",
+    "href": "chapter-05-file-directory-errors.html#understanding-no-such-file-or-directory",
+    "title": "6  Chapter 5: File and Directory Errors",
+    "section": "6.3 5.1 Understanding “No Such File or Directory”",
+    "text": "6.3 5.1 Understanding “No Such File or Directory”\n\n6.3.1 The Basic Error\n$ cat myfile.txt\ncat: myfile.txt: No such file or directory\nWhat This Really Means: The shell cannot find the file you specified at the location you specified.\n\n\n\n6.3.2 Common Causes Checklist\n#!/bin/bash\n# file_not_found_diagnosis.sh\n\necho \"File Not Found - Common Causes\"\necho \"===============================\"\necho\necho \"1. WRONG LOCATION\"\necho \"   You're in /home/user but file is in /home/user/documents\"\necho\necho \"2. TYPO IN NAME\"\necho \"   Looking for 'myfile.txt' but it's actually 'myfile.tx'\"\necho\necho \"3. CASE SENSITIVITY (Linux)\"\necho \"   Looking for 'File.txt' but it's actually 'file.txt'\"\necho\necho \"4. HIDDEN FILE\"\necho \"   File starts with dot: .myfile\"\necho\necho \"5. WHITESPACE IN NAME\"\necho \"   File is 'my file.txt' but you typed: cat my file.txt\"\necho\necho \"6. SPECIAL CHARACTERS\"\necho \"   File has characters like: file*.txt or file[1].txt\"\necho\necho \"7. SYMLINK BROKEN\"\necho \"   Symbolic link points to non-existent file\"\necho\necho \"8. DELETED/MOVED\"\necho \"   File was recently deleted or moved\"\necho\necho \"9. WRONG EXTENSION\"\necho \"   File is .TXT but you're looking for .txt\"\necho\necho \"10. PERMISSION ISSUES\"\necho \"    File exists but you can't see it\"",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Chapter 5: File and Directory Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-05-file-directory-errors.html#absolute-vs.-relative-paths",
+    "href": "chapter-05-file-directory-errors.html#absolute-vs.-relative-paths",
+    "title": "6  Chapter 5: File and Directory Errors",
+    "section": "6.4 5.2 Absolute vs. Relative Paths",
+    "text": "6.4 5.2 Absolute vs. Relative Paths\n\n6.4.1 Understanding Path Types\n#!/bin/bash\n# path_tutorial.sh\n\necho \"Path Types Tutorial\"\necho \"===================\"\necho\necho \"Current directory: $(pwd)\"\necho\n\n# Create test structure\nmkdir -p /tmp/path_demo/subdir\ncd /tmp/path_demo || exit\ntouch file1.txt subdir/file2.txt\n\necho \"1. ABSOLUTE PATHS (start with /)\"\necho \"   Always start from root directory\"\necho \"   Example: $(pwd)/file1.txt\"\necho \"   Advantage: Works from anywhere\"\necho\n\necho \"2. RELATIVE PATHS (no leading /)\"\necho \"   Start from current directory\"\necho \"   Example: file1.txt or subdir/file2.txt\"\necho \"   Advantage: Portable, shorter\"\necho\n\necho \"3. HOME DIRECTORY (~)\"\necho \"   Expands to your home directory\"\necho \"   ~/Documents = $HOME/Documents\"\necho\n\necho \"4. PARENT DIRECTORY (..)\"\necho \"   Goes up one level\"\necho \"   ../file.txt = file in parent directory\"\necho\n\necho \"5. CURRENT DIRECTORY (.)\"\necho \"   Refers to current directory\"\necho \"   ./script.sh = run script in current dir\"\necho\n\n# Cleanup\ncd /\nrm -rf /tmp/path_demo\n\n\n\n6.4.2 Path Resolution Script\n#!/bin/bash\n# resolve_path.sh\n\nresolve_and_check() {\n    local path=\"$1\"\n\n    echo \"Path: $path\"\n    echo \"─────────────────────────────\"\n\n    # Check if absolute or relative\n    if [[ \"$path\" == /* ]]; then\n        echo \"Type: Absolute path\"\n    else\n        echo \"Type: Relative path\"\n    fi\n\n    # Show current directory\n    echo \"Current directory: $(pwd)\"\n\n    # Resolve to absolute\n    if [[ -e \"$path\" ]]; then\n        real_path=$(realpath \"$path\" 2&gt;/dev/null || readlink -f \"$path\" 2&gt;/dev/null)\n        echo \"Resolves to: $real_path\"\n        echo \"✓ EXISTS\"\n    else\n        echo \"✗ DOES NOT EXIST\"\n        echo\n        echo \"Possible issues:\"\n        echo \"  • Check spelling\"\n        echo \"  • Verify you're in the right directory\"\n        echo \"  • Use absolute path instead\"\n    fi\n    echo\n}\n\n# Test with argument\nif [[ -n \"$1\" ]]; then\n    resolve_and_check \"$1\"\nelse\n    echo \"Usage: $0 &lt;path&gt;\"\n    echo\n    echo \"Examples:\"\n    echo \"  $0 file.txt\"\n    echo \"  $0 /etc/passwd\"\n    echo \"  $0 ../other/file.txt\"\nfi",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Chapter 5: File and Directory Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-05-file-directory-errors.html#handling-spaces-and-special-characters",
+    "href": "chapter-05-file-directory-errors.html#handling-spaces-and-special-characters",
+    "title": "6  Chapter 5: File and Directory Errors",
+    "section": "6.5 5.3 Handling Spaces and Special Characters",
+    "text": "6.5 5.3 Handling Spaces and Special Characters\n\n6.5.1 The Space Problem\n#!/bin/bash\n# space_demo.sh\n\necho \"Handling Spaces in Filenames\"\necho \"=============================\"\necho\n\n# Create test file\ntouch \"/tmp/my file.txt\"\necho \"test content\" &gt; \"/tmp/my file.txt\"\n\necho \"Created file: 'my file.txt'\"\necho\n\necho \"PROBLEM: Unquoted filename\"\necho \"──────────────────────────\"\necho '$ cat /tmp/my file.txt'\necho \"Error: cat tries to open 'my' and 'file.txt' separately\"\ncat /tmp/my file.txt 2&gt;&1 || true\necho\n\necho \"SOLUTION 1: Double quotes\"\necho \"─────────────────────────\"\necho '$ cat \"/tmp/my file.txt\"'\ncat \"/tmp/my file.txt\"\necho\n\necho \"SOLUTION 2: Single quotes\"\necho \"─────────────────────────\"\necho \"$ cat '/tmp/my file.txt'\"\ncat '/tmp/my file.txt'\necho\n\necho \"SOLUTION 3: Escape spaces\"\necho \"─────────────────────────\"\necho '$ cat /tmp/my\\ file.txt'\ncat /tmp/my\\ file.txt\necho\n\n# Cleanup\nrm \"/tmp/my file.txt\"\n\n\n\n6.5.2 Special Characters Guide\n#!/bin/bash\n# special_chars.sh\n\necho \"Special Characters in Filenames\"\necho \"================================\"\necho\n\n# Create test files\ncd /tmp || exit\ntouch \"file*.txt\" \"file[1].txt\" 'file$var.txt' \"file&test.txt\"\n\necho \"Created files with special characters\"\necho\n\necho \"PROBLEM CHARACTERS:\"\necho \"───────────────────\"\necho\n\necho \"1. Asterisk (*) - Wildcard\"\necho \"   File: 'file*.txt'\"\necho \"   Wrong: cat file*.txt  (expands to all matching)\"\necho \"   Right: cat 'file*.txt'\"\ncat 'file*.txt' 2&gt;/dev/null || echo \"   (empty file)\"\necho\n\necho \"2. Brackets [] - Character class\"\necho \"   File: 'file[1].txt'\"\necho \"   Wrong: cat file[1].txt  (glob expansion)\"\necho \"   Right: cat 'file[1].txt'\"\ncat 'file[1].txt' 2&gt;/dev/null || echo \"   (empty file)\"\necho\n\necho \"3. Dollar sign ($) - Variable expansion\"\necho \"   File: 'file\\$var.txt'\"\necho \"   Wrong: cat file\\$var.txt  (expands \\$var)\"\necho \"   Right: cat 'file\\$var.txt'\"\ncat 'file$var.txt' 2&gt;/dev/null || echo \"   (empty file)\"\necho\n\necho \"4. Ampersand (&) - Background process\"\necho \"   File: 'file&test.txt'\"\necho \"   Wrong: cat file&test.txt  (runs cat file in background)\"\necho \"   Right: cat 'file&test.txt'\"\ncat 'file&test.txt' 2&gt;/dev/null || echo \"   (empty file)\"\necho\n\n# Cleanup\nrm 'file*.txt' 'file[1].txt' 'file$var.txt' 'file&test.txt'\n\n\n\n6.5.3 Safe Filename Handler\n#!/bin/bash\n# safe_filename.sh\n\n# Function to handle any filename safely\nsafe_cat() {\n    local file=\"$1\"\n\n    if [[ -z \"$file\" ]]; then\n        echo \"Usage: safe_cat &lt;filename&gt;\"\n        return 1\n    fi\n\n    if [[ ! -f \"$file\" ]]; then\n        echo \"Error: File not found: $file\"\n        return 1\n    fi\n\n    # Safely display contents\n    cat -- \"$file\"\n}\n\n# Function to rename to safe filename\nmake_safe() {\n    local original=\"$1\"\n\n    if [[ ! -e \"$original\" ]]; then\n        echo \"Error: File not found: $original\"\n        return 1\n    fi\n\n    # Replace problematic characters\n    local safe=$(echo \"$original\" | tr ' &*?[]{}()&lt;&gt;|;`$!'\"'\"'\\\\' '_')\n\n    if [[ \"$original\" == \"$safe\" ]]; then\n        echo \"✓ Filename is already safe: $original\"\n        return 0\n    fi\n\n    if [[ -e \"$safe\" ]]; then\n        echo \"Error: Target filename already exists: $safe\"\n        return 1\n    fi\n\n    mv -- \"$original\" \"$safe\"\n    echo \"✓ Renamed: '$original' → '$safe'\"\n}\n\n# Menu\ncase \"${1:-}\" in\n    cat)\n        safe_cat \"$2\"\n        ;;\n    fix)\n        make_safe \"$2\"\n        ;;\n    *)\n        echo \"Safe Filename Handler\"\n        echo \"=====================\"\n        echo\n        echo \"Usage:\"\n        echo \"  $0 cat &lt;file&gt;    - Safely display file\"\n        echo \"  $0 fix &lt;file&gt;    - Rename to safe filename\"\n        ;;\nesac",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Chapter 5: File and Directory Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-05-file-directory-errors.html#symbolic-links-and-hard-links",
+    "href": "chapter-05-file-directory-errors.html#symbolic-links-and-hard-links",
+    "title": "6  Chapter 5: File and Directory Errors",
+    "section": "6.6 5.4 Symbolic Links and Hard Links",
+    "text": "6.6 5.4 Symbolic Links and Hard Links\n\n6.6.1 Understanding Links\n#!/bin/bash\n# links_tutorial.sh\n\necho \"Symbolic Links vs Hard Links\"\necho \"=============================\"\necho\n\ncd /tmp || exit\necho \"Original\" &gt; original.txt\n\necho \"1. SYMBOLIC LINKS (Soft Links)\"\necho \"───────────────────────────────\"\nln -s original.txt symlink.txt\necho \"Created: symlink.txt → original.txt\"\necho \"Content: $(cat symlink.txt)\"\nls -l symlink.txt\necho\n\necho \"2. HARD LINKS\"\necho \"─────────────\"\nln original.txt hardlink.txt\necho \"Created: hardlink.txt (hard link to original.txt)\"\necho \"Content: $(cat hardlink.txt)\"\nls -l hardlink.txt original.txt\necho\n\necho \"3. WHAT HAPPENS WHEN ORIGINAL IS DELETED\"\necho \"─────────────────────────────────────────\"\nrm original.txt\n\necho \"Symbolic link (broken):\"\ncat symlink.txt 2&gt;&1 || echo \"  ✗ Symlink broken\"\nls -l symlink.txt\n\necho\necho \"Hard link (still works):\"\ncat hardlink.txt\necho \"  ✓ Hard link still works\"\necho\n\n# Cleanup\nrm symlink.txt hardlink.txt\n\n\n\n6.6.2 Fixing Broken Symlinks\n#!/bin/bash\n# fix_broken_symlinks.sh\n\nfind_broken_symlinks() {\n    local search_dir=\"${1:-.}\"\n    \n    echo \"Finding broken symlinks in: $search_dir\"\n    echo \"═══════════════════════════════════════\"\n    echo\n    \n    local found=0\n    \n    while IFS= read -r -d '' link; do\n        if [[ ! -e \"$link\" ]]; then\n            ((found++))\n            echo \"BROKEN: $link\"\n            echo \"  Target: $(readlink \"$link\")\"\n            echo \"  Location: $(dirname \"$link\")\"\n            echo\n        fi\n    done &lt; &lt;(find \"$search_dir\" -type l -print0 2&gt;/dev/null)\n    \n    if ((found == 0)); then\n        echo \"✓ No broken symlinks found\"\n    else\n        echo \"Found $found broken symlink(s)\"\n    fi\n}\n\nfix_symlink() {\n    local link=\"$1\"\n    local new_target=\"$2\"\n    \n    if [[ ! -L \"$link\" ]]; then\n        echo \"Error: $link is not a symbolic link\"\n        return 1\n    fi\n    \n    local old_target=$(readlink \"$link\")\n    \n    echo \"Fixing symlink: $link\"\n    echo \"  Old target: $old_target\"\n    echo \"  New target: $new_target\"\n    \n    if [[ ! -e \"$new_target\" ]]; then\n        echo \"Warning: New target doesn't exist\"\n        read -p \"Continue anyway? (y/N) \" -r\n        if [[ ! $REPLY =~ ^[Yy]$ ]]; then\n            return 1\n        fi\n    fi\n    \n    rm \"$link\"\n    ln -s \"$new_target\" \"$link\"\n    echo \"✓ Fixed\"\n}\n\ncase \"${1:-}\" in\n    find)\n        find_broken_symlinks \"$2\"\n        ;;\n    fix)\n        fix_symlink \"$2\" \"$3\"\n        ;;\n    *)\n        echo \"Broken Symlink Fixer\"\n        echo \"====================\"\n        echo\n        echo \"Usage:\"\n        echo \"  $0 find [directory]           - Find broken symlinks\"\n        echo \"  $0 fix &lt;symlink&gt; &lt;new_target&gt; - Fix a symlink\"\n        ;;\nesac",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Chapter 5: File and Directory Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-05-file-directory-errors.html#case-sensitivity-issues",
+    "href": "chapter-05-file-directory-errors.html#case-sensitivity-issues",
+    "title": "6  Chapter 5: File and Directory Errors",
+    "section": "6.7 5.5 Case Sensitivity Issues",
+    "text": "6.7 5.5 Case Sensitivity Issues\n\n6.7.1 MacOS vs Linux\n#!/bin/bash\n# case_sensitivity.sh\n\necho \"Case Sensitivity Test\"\necho \"====================\"\necho\n\ncd /tmp || exit\n\n# Create test file\necho \"content\" &gt; testfile.txt\n\necho \"Created: testfile.txt\"\necho\n\necho \"Testing case sensitivity...\"\necho\n\n# Test different cases\ntest_cases=(\"testfile.txt\" \"TestFile.txt\" \"TESTFILE.TXT\" \"testFile.TXT\")\n\nfor case_test in \"${test_cases[@]}\"; do\n    echo \"Testing: $case_test\"\n    if [[ -f \"$case_test\" ]]; then\n        echo \"  ✓ Found\"\n    else\n        echo \"  ✗ Not found\"\n    fi\ndone\n\necho\nif [[ -f \"TestFile.txt\" ]]; then\n    echo \"✓ Filesystem is case-INSENSITIVE (likely macOS)\"\n    echo \"  Different cases refer to the same file\"\nelse\n    echo \"✓ Filesystem is case-SENSITIVE (likely Linux)\"\n    echo \"  Different cases are different files\"\nfi\n\n# Cleanup\nrm testfile.txt",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Chapter 5: File and Directory Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-05-file-directory-errors.html#hidden-files-and-directories",
+    "href": "chapter-05-file-directory-errors.html#hidden-files-and-directories",
+    "title": "6  Chapter 5: File and Directory Errors",
+    "section": "6.8 5.6 Hidden Files and Directories",
+    "text": "6.8 5.6 Hidden Files and Directories\n\n6.8.1 Working with Hidden Files\n#!/bin/bash\n# hidden_files.sh\n\nlist_hidden() {\n    local dir=\"${1:-.}\"\n    \n    echo \"Hidden files in: $dir\"\n    echo \"══════════════════════════════════════════════════════════\"\n    echo\n    \n    local count=$(find \"$dir\" -maxdepth 1 -name \".*\" ! -name \".\" ! -name \"..\" 2&gt;/dev/null | wc -l)\n    \n    if ((count == 0)); then\n        echo \"No hidden files found\"\n        return 0\n    fi\n    \n    echo \"Found $count hidden item(s):\"\n    echo\n    \n    # Files\n    echo \"FILES:\"\n    find \"$dir\" -maxdepth 1 -name \".*\" -type f ! -name \".\" ! -name \"..\" 2&gt;/dev/null | while read -r file; do\n        echo \"  $(basename \"$file\")\"\n        ls -lh \"$file\"\n    done\n    echo\n    \n    # Directories\n    echo \"DIRECTORIES:\"\n    find \"$dir\" -maxdepth 1 -name \".*\" -type d ! -name \".\" ! -name \"..\" 2&gt;/dev/null | while read -r dir_path; do\n        echo \"  $(basename \"$dir_path\")/\"\n        ls -lhd \"$dir_path\"\n    done\n}\n\nhide_file() {\n    local file=\"$1\"\n    \n    if [[ ! -e \"$file\" ]]; then\n        echo \"Error: File not found\"\n        return 1\n    fi\n    \n    local dir=$(dirname \"$file\")\n    local base=$(basename \"$file\")\n    \n    if [[ \"$base\" == .* ]]; then\n        echo \"File is already hidden\"\n        return 0\n    fi\n    \n    local hidden=\"$dir/.$base\"\n    \n    if [[ -e \"$hidden\" ]]; then\n        echo \"Error: Hidden version already exists\"\n        return 1\n    fi\n    \n    mv \"$file\" \"$hidden\"\n    echo \"✓ Hidden: $file → $hidden\"\n}\n\nunhide_file() {\n    local file=\"$1\"\n    \n    if [[ ! -e \"$file\" ]]; then\n        echo \"Error: File not found\"\n        return 1\n    fi\n    \n    local dir=$(dirname \"$file\")\n    local base=$(basename \"$file\")\n    \n    if [[ \"$base\" != .* ]]; then\n        echo \"File is not hidden\"\n        return 0\n    fi\n    \n    local visible=\"$dir/${base#.}\"\n    \n    if [[ -e \"$visible\" ]]; then\n        echo \"Error: Visible version already exists\"\n        return 1\n    fi\n    \n    mv \"$file\" \"$visible\"\n    echo \"✓ Unhidden: $file → $visible\"\n}\n\ncase \"${1:-}\" in\n    list)\n        list_hidden \"$2\"\n        ;;\n    hide)\n        hide_file \"$2\"\n        ;;\n    unhide)\n        unhide_file \"$2\"\n        ;;\n    *)\n        echo \"Hidden File Operations\"\n        echo \"======================\"\n        echo\n        echo \"Usage:\"\n        echo \"  $0 list [dir]    - List hidden files\"\n        echo \"  $0 hide &lt;file&gt;   - Make file hidden\"\n        echo \"  $0 unhide &lt;file&gt; - Make file visible\"\n        ;;\nesac",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Chapter 5: File and Directory Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-05-file-directory-errors.html#file-globbing-and-wildcards",
+    "href": "chapter-05-file-directory-errors.html#file-globbing-and-wildcards",
+    "title": "6  Chapter 5: File and Directory Errors",
+    "section": "6.9 5.7 File Globbing and Wildcards",
+    "text": "6.9 5.7 File Globbing and Wildcards\n\n6.9.1 Glob Patterns Guide\n#!/bin/bash\n# glob_tutorial.sh\n\necho \"File Globbing Tutorial\"\necho \"======================\"\necho\n\ncd /tmp || exit\nmkdir glob_demo\ncd glob_demo || exit\n\n# Create test files\ntouch file1.txt file2.txt file10.txt\ntouch data1.csv data2.csv\ntouch test_a.sh test_b.sh\ntouch \"file with spaces.txt\"\n\necho \"Created test files\"\nls\necho\n\necho \"1. ASTERISK (*) - Match any characters\"\necho \"───────────────────────────────────────\"\necho \"$ ls *.txt\"\nls *.txt\necho\n\necho \"2. QUESTION MARK (?) - Match single character\"\necho \"──────────────────────────────────────────────\"\necho \"$ ls file?.txt\"\nls file?.txt\necho\n\necho \"3. BRACKETS [] - Character class\"\necho \"─────────────────────────────────\"\necho \"$ ls file[12].txt\"\nls file[12].txt\necho\n\necho \"$ ls data[1-2].csv\"\nls data[1-2].csv\necho\n\necho \"4. BRACES {} - Multiple patterns\"\necho \"─────────────────────────────────\"\necho \"$ ls *.{txt,csv}\"\necho \"(Lists all .txt and .csv files)\"\nls *.txt *.csv\necho\n\necho \"5. NEGATION [!]\"\necho \"───────────────\"\necho \"$ ls file[!1].txt\"\nls file[!1].txt\necho\n\n# Cleanup\ncd /tmp\nrm -rf glob_demo\n\n\n\n6.9.2 Safe Globbing Practices\n#!/bin/bash\n# safe_globbing.sh\n\necho \"Safe Globbing Practices\"\necho \"=======================\"\necho\n\n# Enable nullglob (empty array if no matches)\nshopt -s nullglob\n\necho \"1. ALWAYS QUOTE ARRAY EXPANSIONS\"\necho \"─────────────────────────────────\"\nfiles=(\"file 1.txt\" \"file 2.txt\")\necho \"Array: (\\\"file 1.txt\\\" \\\"file 2.txt\\\")\"\necho\necho \"Wrong: for f in \\${files[@]}; do\"\nfor f in ${files[@]}; do\n    echo \"  Item: '$f'\"  # Splits on spaces!\ndone\necho\necho \"Correct: for f in \\\"\\${files[@]}\\\"; do\"\nfor f in \"${files[@]}\"; do\n    echo \"  Item: '$f'\"  # Preserves spaces\ndone\necho\n\necho \"2. CHECK FOR MATCHES\"\necho \"────────────────────\"\npattern=\"*.nonexistent\"\nfiles=($pattern)\n\nif ((${#files[@]} == 0)); then\n    echo \"No files match: $pattern\"\nelse\n    echo \"Found ${#files[@]} file(s)\"\nfi\necho\n\necho \"3. USE GLOBS, NOT \\$(ls)\"\necho \"────────────────────────\"\necho \"Wrong: for f in \\$(ls *.txt); do\"\necho \"Right: for f in *.txt; do\"\necho\n\nshopt -u nullglob",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Chapter 5: File and Directory Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-05-file-directory-errors.html#ultimate-file-finder",
+    "href": "chapter-05-file-directory-errors.html#ultimate-file-finder",
+    "title": "6  Chapter 5: File and Directory Errors",
+    "section": "6.10 5.8 Ultimate File Finder",
+    "text": "6.10 5.8 Ultimate File Finder\n#!/bin/bash\n# ultimate_file_finder.sh\n\nfind_file() {\n    local filename=\"$1\"\n    local start_dir=\"${2:-.}\"\n\n    if [[ -z \"$filename\" ]]; then\n        echo \"Usage: $0 &lt;filename&gt; [start_directory]\"\n        return 1\n    fi\n\n    echo \"╔══════════════════════════════════════════════════════════╗\"\n    echo \"║         ULTIMATE FILE FINDER                             ║\"\n    echo \"╚══════════════════════════════════════════════════════════╝\"\n    echo\n    echo \"Searching for: $filename\"\n    echo \"Starting from: $start_dir\"\n    echo \"═══════════════════════════════════════════════════════════\"\n    echo\n\n    # 1. Exact match\n    echo \"1. EXACT NAME MATCH\"\n    echo \"───────────────────────────────────────────────────────────\"\n    local exact=$(find \"$start_dir\" -name \"$filename\" -type f 2&gt;/dev/null | head -5)\n    if [[ -n \"$exact\" ]]; then\n        echo \"✓ Found:\"\n        echo \"$exact\"\n    else\n        echo \"✗ No exact matches\"\n    fi\n    echo\n\n    # 2. Case-insensitive\n    echo \"2. CASE-INSENSITIVE\"\n    echo \"───────────────────────────────────────────────────────────\"\n    local icase=$(find \"$start_dir\" -iname \"$filename\" -type f 2&gt;/dev/null | head -5)\n    if [[ -n \"$icase\" ]]; then\n        echo \"✓ Found:\"\n        echo \"$icase\"\n    else\n        echo \"✗ No matches\"\n    fi\n    echo\n\n    # 3. Partial match\n    echo \"3. PARTIAL MATCH\"\n    echo \"───────────────────────────────────────────────────────────\"\n    local partial=$(find \"$start_dir\" -iname \"*$filename*\" -type f 2&gt;/dev/null | head -5)\n    if [[ -n \"$partial\" ]]; then\n        echo \"✓ Found (showing first 5):\"\n        echo \"$partial\"\n    else\n        echo \"✗ No matches\"\n    fi\n    echo\n\n    # 4. Common locations\n    echo \"4. CHECKING COMMON LOCATIONS\"\n    echo \"───────────────────────────────────────────────────────────\"\n    local common_dirs=(\n        \"$HOME/Documents\"\n        \"$HOME/Downloads\"\n        \"$HOME/Desktop\"\n        \"/tmp\"\n    )\n\n    for dir in \"${common_dirs[@]}\"; do\n        if [[ -d \"$dir\" ]]; then\n            if find \"$dir\" -maxdepth 2 -iname \"*$filename*\" -type f 2&gt;/dev/null | grep -q .; then\n                echo \"✓ Found in: $dir\"\n            fi\n        fi\n    done\n    echo\n\n    echo \"═══════════════════════════════════════════════════════════\"\n    echo \"SEARCH COMPLETE\"\n}\n\nfind_file \"$@\"",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Chapter 5: File and Directory Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-05-file-directory-errors.html#key-takeaways",
+    "href": "chapter-05-file-directory-errors.html#key-takeaways",
+    "title": "6  Chapter 5: File and Directory Errors",
+    "section": "6.11 5.9 Key Takeaways",
+    "text": "6.11 5.9 Key Takeaways\n✓ Understand paths - Absolute vs. relative\n✓ Quote filenames - Protect spaces and special characters\n✓ Know symlinks - They can break if targets move\n✓ Remember case - MacOS usually insensitive, Linux sensitive\n✓ Hidden files - Start with dot, use ls -a\n✓ Quote globs - Variables yes, glob patterns no\n✓ Test on both - MacOS and Linux differences matter",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Chapter 5: File and Directory Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-05-file-directory-errors.html#quick-reference",
+    "href": "chapter-05-file-directory-errors.html#quick-reference",
+    "title": "6  Chapter 5: File and Directory Errors",
+    "section": "6.12 5.10 Quick Reference",
+    "text": "6.12 5.10 Quick Reference\n# Path operations\npwd                     # Current directory\nrealpath file          # Absolute path\ndirname /path/to/file  # Directory part\nbasename /path/to/file # Filename part\n\n# Handling special names\ncat \"file with spaces.txt\"\nrm -- -filename        # File starting with dash\n\n# Finding files\nfind . -name \"file.txt\"     # Exact\nfind . -iname \"file.txt\"    # Case-insensitive\nfind . -name \"*.txt\"        # Pattern\n\n# Symlinks\nln -s target link      # Create symlink\nreadlink link          # Show target\nfind . -xtype l        # Find broken symlinks\n\n# Hidden files\nls -a                  # Show hidden\nfind . -name \".*\"      # Find hidden\n\n# Globs\n*.txt                  # All .txt\nfile?.txt              # file + one char\nfile[123].txt          # file1, 2, or 3\n\nEnd of Chapter 5\nNext: Chapter 6: Syntax Errors",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Chapter 5: File and Directory Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-06-syntax-errors.html",
+    "href": "chapter-06-syntax-errors.html",
+    "title": "7  Chapter 6: Syntax Errors",
+    "section": "",
+    "text": "7.1 Understanding and Fixing Bash Script Syntax Issues",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Chapter 6: Syntax Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-06-syntax-errors.html#overview",
+    "href": "chapter-06-syntax-errors.html#overview",
+    "title": "7  Chapter 6: Syntax Errors",
+    "section": "7.2 Overview",
+    "text": "7.2 Overview\nSyntax errors are among the most common—and often most cryptic—errors in Bash scripting. Unlike logical errors that produce wrong results, syntax errors prevent your script from running at all. This chapter will teach you to identify, understand, and fix every type of Bash syntax error.\nBy the end of this chapter, you’ll master: - Reading and interpreting syntax error messages - Quoting rules and escaping special characters - Bracket and brace matching - Line continuation and heredoc syntax - Common syntax pitfalls and how to avoid them - Using syntax checkers and linters - Debugging complex syntax issues",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Chapter 6: Syntax Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-06-syntax-errors.html#understanding-syntax-error-messages",
+    "href": "chapter-06-syntax-errors.html#understanding-syntax-error-messages",
+    "title": "7  Chapter 6: Syntax Errors",
+    "section": "7.3 6.1 Understanding Syntax Error Messages",
+    "text": "7.3 6.1 Understanding Syntax Error Messages\n\n7.3.1 The Anatomy of Syntax Errors\n#!/bin/bash\n# syntax_error_example.sh\n\n# Intentional error\nif [ $x -eq 5 ]\nthen\n    echo \"x is 5\"\n# Missing fi\nError Output:\n./script.sh: line 8: syntax error: unexpected end of file\nComponents: - ./script.sh - The script file - line 8 - Where Bash gave up (not always the actual error!) - syntax error - Type of error - unexpected end of file - What Bash found\n\n\n\n7.3.2 Common Syntax Error Patterns\n#!/bin/bash\n# common_syntax_errors.sh\n\ncat &lt;&lt; 'EOF'\nCOMMON SYNTAX ERRORS:\n─────────────────────\n\n1. \"syntax error near unexpected token\"\n   Cause: Unmatched quotes, brackets, or braces\n\n2. \"unexpected end of file\"\n   Cause: Missing fi, done, or esac\n\n3. \"unexpected EOF while looking for matching\"\n   Cause: Unclosed quote or here-document\n\n4. \"syntax error: operand expected\"\n   Cause: Bad arithmetic expression\n\n5. \"syntax error: invalid arithmetic operator\"\n   Cause: Wrong operator in (( )) or let\n\n6. \"command not found\"\n   Sometimes: Actually a syntax error (missing quotes)\n\n7. \"bad substitution\"\n   Cause: Wrong variable syntax ${var}\nEOF",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Chapter 6: Syntax Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-06-syntax-errors.html#quoting-and-escaping",
+    "href": "chapter-06-syntax-errors.html#quoting-and-escaping",
+    "title": "7  Chapter 6: Syntax Errors",
+    "section": "7.4 6.2 Quoting and Escaping",
+    "text": "7.4 6.2 Quoting and Escaping\n\n7.4.1 The Three Types of Quotes\n#!/bin/bash\n# quoting_guide.sh\n\necho \"Quoting in Bash\"\necho \"===============\"\necho\n\nname=\"Alice\"\nprice=10\n\n# Single quotes - Literal\necho \"1. SINGLE QUOTES (' ')\"\necho '   $name = literal $name'\necho '   Price: $10 (no expansion)'\necho\n\n# Double quotes - Expansion\necho '2. DOUBLE QUOTES (\" \")'\necho \"   \\$name = $name (expanded)\"\necho \"   Price: \\$$price (escaped $)\"\necho\n\n# No quotes - Word splitting\necho \"3. NO QUOTES\"\ntext=\"one two three\"\necho \"   With quotes:\"\nfor word in \"$text\"; do\n    echo \"     $word\"\ndone\necho \"   Without quotes:\"\nfor word in $text; do\n    echo \"     $word\"\ndone\necho\n\n# ANSI-C quoting\necho '4. ANSI-C QUOTING ($'\\''...'\\'')'\necho $'   Line 1\\nLine 2'\necho $'   Tab:\\there'\n\n\n\n7.4.2 Quoting Problems and Solutions\n#!/bin/bash\n# quoting_problems.sh\n\necho \"Common Quoting Problems\"\necho \"=======================\"\necho\n\n# Problem 1: Unmatched quotes\necho \"PROBLEM 1: Unmatched quote\"\necho 'Code: echo \"Hello'\necho \"Error: unexpected EOF while looking for matching \\`\\\"'\"\necho 'Fix: echo \"Hello\"'\necho\n\n# Problem 2: Variable in single quotes\necho \"PROBLEM 2: Variable won't expand\"\nname=\"Bob\"\necho 'Code: echo '\\''Hello $name'\\'''\necho 'Hello $name'\necho 'Fix: echo \"Hello $name\"'\necho \"Hello $name\"\necho\n\n# Problem 3: Filename with spaces\necho \"PROBLEM 3: Spaces in filenames\"\necho 'Wrong: cat my file.txt'\necho 'Right: cat \"my file.txt\"'\necho\n\n# Problem 4: Special characters\necho \"PROBLEM 4: Dollar sign literal\"\necho 'Wrong: echo \"Price is $10\"'\necho \"Wrong result: Price is $10\" #$1 expands!\necho 'Right: echo \"Price is \\$10\"'\necho \"Right result: Price is \\$10\"",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Chapter 6: Syntax Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-06-syntax-errors.html#bracket-and-parenthesis-matching",
+    "href": "chapter-06-syntax-errors.html#bracket-and-parenthesis-matching",
+    "title": "7  Chapter 6: Syntax Errors",
+    "section": "7.5 6.3 Bracket and Parenthesis Matching",
+    "text": "7.5 6.3 Bracket and Parenthesis Matching\n\n7.5.1 Understanding Bash Brackets\n#!/bin/bash\n# brackets_guide.sh\n\ncat &lt;&lt; 'EOF'\nBASH BRACKETS GUIDE:\n════════════════════\n\n1. SINGLE BRACKETS [ ]\n   • Test command\n   • POSIX compatible\n   • Requires spaces\n   • Quote variables\n   Example: if [ \"$x\" = \"5\" ]; then\n\n2. DOUBLE BRACKETS [[ ]]\n   • Bash extended test\n   • Pattern matching\n   • Safer with variables\n   Example: if [[ $x == 5 ]]; then\n\n3. SINGLE PARENTHESES ( )\n   • Subshell execution\n   • Command grouping\n   Example: (cd /tmp && ls)\n\n4. DOUBLE PARENTHESES (( ))\n   • Arithmetic evaluation\n   • C-style syntax\n   Example: ((x = 5 + 3))\n\n5. CURLY BRACES { }\n   • Variable expansion\n   • Command grouping\n   Example: ${var:-default}\n\n6. ANGLE BRACKETS &lt; &gt;\n   • Redirection\n   • Here-documents\n   Example: cmd &lt; input.txt\nEOF\n\n\n\n7.5.2 Bracket Matching Checker\n#!/bin/bash\n# check_brackets.sh\n\ncheck_brackets() {\n    local file=\"$1\"\n\n    if [[ ! -f \"$file\" ]]; then\n        echo \"Usage: $0 &lt;script_file&gt;\"\n        return 1\n    fi\n\n    echo \"Checking Brackets in: $file\"\n    echo \"════════════════════════════\"\n    echo\n\n    # Count brackets\n    local single_open=$(grep -o '\\[' \"$file\" | wc -l)\n    local single_close=$(grep -o '\\]' \"$file\" | wc -l)\n    local paren_open=$(grep -o '(' \"$file\" | wc -l)\n    local paren_close=$(grep -o ')' \"$file\" | wc -l)\n    local brace_open=$(grep -o '{' \"$file\" | wc -l)\n    local brace_close=$(grep -o '}' \"$file\" | wc -l)\n\n    echo \"Bracket Count:\"\n    echo \"  [ : $single_open\"\n    echo \"  ] : $single_close\"\n    echo \"  ( : $paren_open\"\n    echo \"  ) : $paren_close\"\n    echo \"  { : $brace_open\"\n    echo \"  } : $brace_close\"\n    echo\n\n    local issues=0\n\n    if ((single_open != single_close)); then\n        echo \"✗ Single brackets unbalanced\"\n        ((issues++))\n    fi\n\n    if ((paren_open != paren_close)); then\n        echo \"✗ Parentheses unbalanced\"\n        ((issues++))\n    fi\n\n    if ((brace_open != brace_close)); then\n        echo \"✗ Braces unbalanced\"\n        ((issues++))\n    fi\n\n    if ((issues == 0)); then\n        echo \"✓ All brackets balanced\"\n    fi\n}\n\ncheck_brackets \"$1\"",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Chapter 6: Syntax Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-06-syntax-errors.html#control-structure-syntax",
+    "href": "chapter-06-syntax-errors.html#control-structure-syntax",
+    "title": "7  Chapter 6: Syntax Errors",
+    "section": "7.6 6.4 Control Structure Syntax",
+    "text": "7.6 6.4 Control Structure Syntax\n\n7.6.1 If/Then/Else/Fi\n#!/bin/bash\n# if_syntax.sh\n\ncat &lt;&lt; 'EOF'\nIF STATEMENT SYNTAX:\n════════════════════\n\n1. Simple if:\n   if condition; then\n       commands\n   fi\n\n2. If-else:\n   if condition; then\n       commands\n   else\n       commands\n   fi\n\n3. If-elif-else:\n   if condition1; then\n       commands\n   elif condition2; then\n       commands\n   else\n       commands\n   fi\n\nCOMMON ERRORS:\n══════════════\n\n✗ Missing then:\n  if [ $x -eq 5 ]\n      echo \"five\"\n  fi\n\n✗ Missing fi:\n  if [ $x -eq 5 ]; then\n      echo \"five\"\n\n✓ CORRECT:\n  if [ $x -eq 5 ]; then\n      echo \"five\"\n  fi\nEOF\n\n\n\n7.6.2 Loop Syntax\n#!/bin/bash\n# loop_syntax.sh\n\ncat &lt;&lt; 'EOF'\nFOR LOOP SYNTAX:\n════════════════\n\n1. C-style:\n   for ((i=0; i&lt;10; i++)); do\n       commands\n   done\n\n2. For-in:\n   for item in list; do\n       commands\n   done\n\nWHILE LOOP:\n═══════════\n\nwhile condition; do\n    commands\ndone\n\nUNTIL LOOP:\n═══════════\n\nuntil condition; do\n    commands\ndone\n\nCOMMON ERRORS:\n══════════════\n\n✗ Missing do:\n  for i in 1 2 3\n      echo $i\n  done\n\n✗ Missing done:\n  for i in 1 2 3; do\n      echo $i\n\n✓ CORRECT:\n  for i in 1 2 3; do\n      echo $i\n  done\nEOF\n\n\n\n7.6.3 Case Statement Syntax\n#!/bin/bash\n# case_syntax.sh\n\ncat &lt;&lt; 'EOF'\nCASE SYNTAX:\n════════════\n\ncase $variable in\n    pattern1)\n        commands\n        ;;\n    pattern2|pattern3)\n        commands\n        ;;\n    *)\n        default\n        ;;\nesac\n\nPATTERNS:\n═════════\n• Exact: \"yes\")\n• Wildcard: *) or yes*)\n• Multiple: pattern1|pattern2)\n• Range: [Yy]es)\n\nCOMMON ERRORS:\n══════════════\n\n✗ Missing ;;\n  case $x in\n      1) echo \"one\"\n      2) echo \"two\"\n  esac\n\n✗ Missing esac:\n  case $x in\n      1) echo \"one\" ;;\n\n✓ CORRECT:\n  case $x in\n      1) echo \"one\" ;;\n      2) echo \"two\" ;;\n      *) echo \"other\" ;;\n  esac\nEOF",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Chapter 6: Syntax Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-06-syntax-errors.html#here-documents",
+    "href": "chapter-06-syntax-errors.html#here-documents",
+    "title": "7  Chapter 6: Syntax Errors",
+    "section": "7.7 6.5 Here-Documents",
+    "text": "7.7 6.5 Here-Documents\n\n7.7.1 Here-Document Syntax\n#!/bin/bash\n# heredoc_syntax.sh\n\ncat &lt;&lt; 'EOF'\nHERE-DOCUMENT SYNTAX:\n═════════════════════\n\nBASIC:\ncommand &lt;&lt; DELIMITER\ncontent\nDELIMITER\n\nRULES:\n1. Opening &lt;&lt; DELIMITER on same line\n2. Closing DELIMITER alone on its line\n3. Closing DELIMITER at start (no spaces!)\n\nVARIATIONS:\n───────────\n\n1. With expansion:\n   cat &lt;&lt; EOF\n   Hello $name\n   EOF\n\n2. Without expansion (quoted):\n   cat &lt;&lt; 'EOF'\n   Hello $name\n   EOF\n\n3. Strip leading tabs (&lt;&lt;-):\n   cat &lt;&lt;- EOF\n       Indented\n   EOF\n\nCOMMON ERRORS:\n══════════════\n\n✗ Indented closing:\n  cat &lt;&lt; EOF\n  text\n      EOF  # Error!\n\n✗ Space after closing:\n  cat &lt;&lt; EOF\n  text\n  EOF   # Space here - Error!\n\n✓ CORRECT:\n  cat &lt;&lt; EOF\n  text\n  EOF\nEOF",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Chapter 6: Syntax Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-06-syntax-errors.html#using-syntax-checkers",
+    "href": "chapter-06-syntax-errors.html#using-syntax-checkers",
+    "title": "7  Chapter 6: Syntax Errors",
+    "section": "7.8 6.6 Using Syntax Checkers",
+    "text": "7.8 6.6 Using Syntax Checkers\n\n7.8.1 bash -n (Dry Run)\n#!/bin/bash\n# check_syntax.sh\n\ncheck_script() {\n    local script=\"$1\"\n\n    if [[ ! -f \"$script\" ]]; then\n        echo \"Usage: $0 &lt;script&gt;\"\n        return 1\n    fi\n\n    echo \"Checking syntax: $script\"\n    echo \"════════════════════════\"\n    echo\n\n    # Check syntax without running\n    if bash -n \"$script\" 2&gt;&1; then\n        echo \"✓ No syntax errors\"\n    else\n        echo \"✗ Syntax errors found\"\n        return 1\n    fi\n    echo\n\n    # Check shebang\n    if head -1 \"$script\" | grep -q '^#!'; then\n        echo \"✓ Shebang present: $(head -1 \"$script\")\"\n    else\n        echo \"⚠ No shebang\"\n    fi\n    echo\n\n    # Check executable\n    if [[ -x \"$script\" ]]; then\n        echo \"✓ Executable\"\n    else\n        echo \"⚠ Not executable (chmod +x $script)\"\n    fi\n}\n\ncheck_script \"$1\"\n\n\n\n7.8.2 ShellCheck Integration\n#!/bin/bash\n# shellcheck_wrapper.sh\n\nrun_shellcheck() {\n    local script=\"$1\"\n\n    if ! command -v shellcheck &&gt;/dev/null; then\n        echo \"ShellCheck not installed\"\n        echo \"Install: brew install shellcheck (macOS)\"\n        echo \"         sudo apt install shellcheck (Linux)\"\n        return 1\n    fi\n\n    echo \"Running ShellCheck on: $script\"\n    echo \"══════════════════════════════\"\n    echo\n\n    shellcheck \"$script\"\n\n    local exit_code=$?\n\n    if ((exit_code == 0)); then\n        echo\n        echo \"✓ No issues found\"\n    fi\n\n    return $exit_code\n}\n\nrun_shellcheck \"$1\"",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Chapter 6: Syntax Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-06-syntax-errors.html#advanced-syntax-issues",
+    "href": "chapter-06-syntax-errors.html#advanced-syntax-issues",
+    "title": "7  Chapter 6: Syntax Errors",
+    "section": "7.9 6.7 Advanced Syntax Issues",
+    "text": "7.9 6.7 Advanced Syntax Issues\n\n7.9.1 Function Syntax\n#!/bin/bash\n# function_syntax.sh\n\ncat &lt;&lt; 'EOF'\nFUNCTION SYNTAX:\n════════════════\n\nMethod 1:\nfunction name() {\n    commands\n}\n\nMethod 2:\nname() {\n    commands\n}\n\nCOMMON ERRORS:\n══════════════\n\n✗ Missing () with function keyword:\n  function name {\n      commands\n  }\n\n✗ Missing braces:\n  name()\n      commands\n\n✗ Space before ():\n  name () {\n      commands\n  }\n\n✓ CORRECT:\n  name() {\n      commands\n  }\n\nBEST PRACTICES:\n═══════════════\n• Use method 2 (more portable)\n• Always declare local variables\n• Return meaningful exit codes\nEOF\n\n\n\n7.9.2 Arithmetic Syntax\n#!/bin/bash\n# arithmetic_syntax.sh\n\necho \"Arithmetic in Bash\"\necho \"==================\"\necho\n\necho \"1. ARITHMETIC EXPANSION \\$((...))\"\necho \"─────────────────────────────────\"\nx=5\ny=3\necho \"x = $x, y = $y\"\necho \"x + y = $((x + y))\"\necho \"x * y = $((x * y))\"\necho\n\necho \"2. ARITHMETIC EVALUATION ((...)))\"\necho \"─────────────────────────────────\"\n((result = x + y * 2))\necho \"result = $result\"\necho\n\necho \"3. COMMON ERRORS\"\necho \"────────────────\"\necho \"✗ Space in variable: \\$( ( x + y ) )\"\necho \"✗ String in arithmetic: \\$(( \\\"5\\\" + \\\"3\\\" ))\"\necho \"✗ Missing \\$ for variables in some contexts\"\necho\necho \"✓ CORRECT:\"\necho \"  \\$((x + y))\"\necho \"  ((x = 5))\"\necho \"  let \\\"x = 5\\\"\"",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Chapter 6: Syntax Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-06-syntax-errors.html#debugging-syntax-issues",
+    "href": "chapter-06-syntax-errors.html#debugging-syntax-issues",
+    "title": "7  Chapter 6: Syntax Errors",
+    "section": "7.10 6.8 Debugging Syntax Issues",
+    "text": "7.10 6.8 Debugging Syntax Issues\n\n7.10.1 Line-by-Line Checker\n#!/bin/bash\n# syntax_debugger.sh\n\ndebug_syntax() {\n    local script=\"$1\"\n    \n    if [[ ! -f \"$script\" ]]; then\n        echo \"Usage: $0 &lt;script&gt;\"\n        return 1\n    fi\n    \n    echo \"Debugging syntax: $script\"\n    echo \"═════════════════════════\"\n    echo\n    \n    local line_num=1\n    \n    # Create temporary file for progressive checking\n    local temp_file=$(mktemp)\n    \n    while IFS= read -r line; do\n        echo \"$line\" &gt;&gt; \"$temp_file\"\n        \n        # Check syntax up to this line\n        if ! bash -n \"$temp_file\" 2&gt;/dev/null; then\n            echo \"✗ Syntax error at or before line $line_num:\"\n            echo \"   $line\"\n            echo\n            bash -n \"$temp_file\"\n            break\n        fi\n        \n        ((line_num++))\n    done &lt; \"$script\"\n    \n    rm -f \"$temp_file\"\n}\n\ndebug_syntax \"$1\"",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Chapter 6: Syntax Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-06-syntax-errors.html#key-takeaways",
+    "href": "chapter-06-syntax-errors.html#key-takeaways",
+    "title": "7  Chapter 6: Syntax Errors",
+    "section": "7.11 6.9 Key Takeaways",
+    "text": "7.11 6.9 Key Takeaways\n✓ Read error messages carefully - Line number is a clue, not always exact\n✓ Check constructs - Every if needs fi, every do needs done\n✓ Quote variables - Always use “$var” not $var\n✓ Match brackets - Use a syntax-aware editor\n✓ Use bash -n - Check syntax before running\n✓ Install ShellCheck - Best tool for catching errors\n✓ Mind spaces - Critical in [ ], =, and function definitions",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Chapter 6: Syntax Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-06-syntax-errors.html#quick-reference",
+    "href": "chapter-06-syntax-errors.html#quick-reference",
+    "title": "7  Chapter 6: Syntax Errors",
+    "section": "7.12 6.10 Quick Reference",
+    "text": "7.12 6.10 Quick Reference\n# Syntax checking\nbash -n script.sh          # Check syntax\nbash -x script.sh          # Trace execution\nshellcheck script.sh       # Static analysis\n\n# If statement\nif condition; then\n    commands\nfi\n\n# Loop\nfor item in list; do\n    commands\ndone\n\n# Case\ncase $var in\n    pattern)\n        commands\n        ;;\nesac\n\n# Function\nname() {\n    commands\n}\n\n# Here-document\ncat &lt;&lt; EOF\ncontent\nEOF\n\n# Arithmetic\n$((expression))          # Expansion\n((expression))           # Evaluation\n\n# Quoting\n\"$var\"                   # Expand variables\n'$var'                   # Literal\n$'string\\n'              # ANSI-C quoting\n\nEnd of Chapter 6\nNext: Chapter 7: Variable and Parameter Errors",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Chapter 6: Syntax Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-07-variable-errors.html",
+    "href": "chapter-07-variable-errors.html",
+    "title": "8  Chapter 7: Variable and Parameter Errors",
+    "section": "",
+    "text": "8.1 Mastering Variables, Parameters, and Expansions",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Chapter 7: Variable and Parameter Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-07-variable-errors.html#overview",
+    "href": "chapter-07-variable-errors.html#overview",
+    "title": "8  Chapter 7: Variable and Parameter Errors",
+    "section": "8.2 Overview",
+    "text": "8.2 Overview\nVariables are the foundation of shell scripting, yet they’re a common source of errors. From unbound variables to parameter expansion issues, this chapter will teach you to handle variables correctly and avoid common pitfalls on both MacOS and Linux.\nBy the end of this chapter, you’ll master: - Variable declaration and assignment - Dealing with unbound variable errors - Parameter expansion techniques - Array handling and iteration - Environment vs. shell variables - Variable scope and subshells - Special variables and their uses - Default values and error handling",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Chapter 7: Variable and Parameter Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-07-variable-errors.html#understanding-variable-basics",
+    "href": "chapter-07-variable-errors.html#understanding-variable-basics",
+    "title": "8  Chapter 7: Variable and Parameter Errors",
+    "section": "8.3 7.1 Understanding Variable Basics",
+    "text": "8.3 7.1 Understanding Variable Basics\n\n8.3.1 Variable Declaration and Assignment\n#!/bin/bash\n# variable_basics.sh\n\necho \"Bash Variable Basics\"\necho \"====================\"\necho\n\ncat &lt;&lt; 'EOF'\nSYNTAX RULES:\n─────────────\n\n✓ CORRECT:\n  var=\"value\"           # No spaces around =\n  var='value'           # Single quotes (literal)\n  var=\"value $other\"    # Double quotes (expansion)\n  var=$(command)        # Command substitution\n  var=$((5 + 3))        # Arithmetic\n\n✗ WRONG:\n  var = \"value\"         # Spaces around =\n  $var=\"value\"          # $ on left side\n  var= \"value\"          # Space before value\n\nACCESSING:\n──────────\n\n$var                    # Simple access\n${var}                  # Explicit (safer)\n\"$var\"                  # Quoted (recommended)\n\nNAMING:\n───────\n\n✓ Valid: var, VAR, _var, var1, my_var\n✗ Invalid: 1var, my-var, my var\nEOF",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Chapter 7: Variable and Parameter Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-07-variable-errors.html#unbound-variable-errors",
+    "href": "chapter-07-variable-errors.html#unbound-variable-errors",
+    "title": "8  Chapter 7: Variable and Parameter Errors",
+    "section": "8.4 7.2 Unbound Variable Errors",
+    "text": "8.4 7.2 Unbound Variable Errors\n\n8.4.1 Understanding “Unbound Variable”\n#!/bin/bash\n# unbound_variables.sh\n\necho \"Unbound Variable Errors\"\necho \"=======================\"\necho\n\ncat &lt;&lt; 'EOF'\nWHAT IS IT:\n───────────\nA variable that has never been set\n\nWITHOUT set -u:\n───────────────\n• Expands to empty string\n• Silent bugs\n• Hard to debug\n\nWITH set -u:\n────────────\n• Script exits on unbound variable\n• Catches typos early\n• Recommended for production\n\nERROR MESSAGE:\n──────────────\nbash: VARIABLE_NAME: unbound variable\nEOF\n\necho\necho \"DEMONSTRATION:\"\necho \"──────────────\"\necho\n\n# Without set -u\necho \"1. Without set -u:\"\necho \"   \\$undefined_var = '$undefined_var' (empty)\"\necho\n\n# With set -u\necho \"2. With set -u:\"\n(\n    set -u\n    echo \"   Trying \\$undefined_var...\"\n    echo \"   Value: $undefined_var\" 2&gt;&1 || echo \"   ✗ Error caught!\"\n)\n\n\n\n8.4.2 Handling Unbound Variables\n#!/bin/bash\n# handling_unbound.sh\n\necho \"Handling Unbound Variables\"\necho \"==========================\"\necho\n\ncat &lt;&lt; 'EOF'\nTECHNIQUES:\n───────────\n\n1. DEFAULT VALUES:\n   ${var:-default}        # Use default if unset\n   ${var:=default}        # Assign default if unset\n   ${var:?error}          # Exit with error if unset\n   ${var:+alternative}    # Use alternative if set\n\n2. CHECK BEFORE USE:\n   if [[ -v var ]]; then\n       echo \"$var\"\n   fi\n\n3. INITIALIZE:\n   var=\"${var:-}\"         # Empty if unset\n\n4. USE set -u:\n   set -u\n   name=\"${name:-Anonymous}\"\nEOF\n\necho\necho \"EXAMPLES:\"\necho \"─────────\"\necho\n\n# Example 1: Default value\nunset username\necho \"1. Default value (:-)\"\necho \"   username unset\"\necho \"   \\${username:-Guest} = ${username:-Guest}\"\necho \"   username still unset\"\necho\n\n# Example 2: Assign default\nunset username\necho \"2. Assign default (:=)\"\necho \"   \\${username:=Guest} = ${username:=Guest}\"\necho \"   username now = '$username'\"\necho\n\n# Example 3: Error if unset\necho \"3. Error if unset (:?)\"\nunset required_var\nresult=$(: ${required_var:?Variable required} 2&gt;&1) || echo \"   Error: $result\"",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Chapter 7: Variable and Parameter Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-07-variable-errors.html#parameter-expansion",
+    "href": "chapter-07-variable-errors.html#parameter-expansion",
+    "title": "8  Chapter 7: Variable and Parameter Errors",
+    "section": "8.5 7.3 Parameter Expansion",
+    "text": "8.5 7.3 Parameter Expansion\n\n8.5.1 Basic Parameter Expansion\n#!/bin/bash\n# parameter_expansion.sh\n\necho \"Parameter Expansion Guide\"\necho \"=========================\"\necho\n\ncat &lt;&lt; 'EOF'\nBASIC:\n──────\n${var}                  # Basic expansion\n${var:-default}         # Default if unset\n${var:=default}         # Assign default\n${var:?error}           # Error if unset\n${var:+value}           # Use if set\n\nSTRING:\n───────\n${#var}                 # Length\n${var:offset}           # Substring from offset\n${var:offset:length}    # Substring with length\n${var#pattern}          # Remove prefix (shortest)\n${var##pattern}         # Remove prefix (longest)\n${var%pattern}          # Remove suffix (shortest)\n${var%%pattern}         # Remove suffix (longest)\n\nSUBSTITUTION:\n─────────────\n${var/old/new}          # Replace first\n${var//old/new}         # Replace all\n${var/#old/new}         # Replace at start\n${var/%old/new}         # Replace at end\n\nCASE:\n─────\n${var^^}                # Uppercase all\n${var,,}                # Lowercase all\n${var^}                 # Uppercase first\n${var,}                 # Lowercase first\nEOF\n\necho\necho \"EXAMPLES:\"\necho \"─────────\"\necho\n\nfilename=\"document.txt.backup\"\necho \"filename=\\\"$filename\\\"\"\necho\necho \"\\${#filename} = ${#filename}  (length)\"\necho \"\\${filename#*.} = ${filename#*.}  (remove first ext)\"\necho \"\\${filename##*.} = ${filename##*.}  (get last ext)\"\necho \"\\${filename%.backup} = ${filename%.backup}  (remove suffix)\"\necho \"\\${filename%%.*} = ${filename%%.*}  (remove all ext)\"\n\n\n\n8.5.2 Advanced Examples\n#!/bin/bash\n# advanced_expansion.sh\n\necho \"Advanced Parameter Expansion\"\necho \"============================\"\necho\n\n# Extract filename parts\nfullpath=\"/home/user/documents/report.2024.pdf\"\necho \"Path: $fullpath\"\necho\necho \"Basename: ${fullpath##*/}\"\necho \"Directory: ${fullpath%/*}\"\necho \"Extension: ${fullpath##*.}\"\necho \"Without ext: ${fullpath%.*}\"\necho\n\n# Convert paths\nwindows=\"C:\\\\Users\\\\John\\\\Documents\"\necho \"Windows: $windows\"\necho \"Unix: ${windows//\\\\//}\"\necho\n\n# Remove prefix/suffix\nurl=\"https://www.example.com/page.html\"\necho \"URL: $url\"\necho \"Without protocol: ${url#*://}\"\ndomain=\"${url#*://}\"\necho \"Domain only: ${domain%%/*}\"",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Chapter 7: Variable and Parameter Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-07-variable-errors.html#arrays",
+    "href": "chapter-07-variable-errors.html#arrays",
+    "title": "8  Chapter 7: Variable and Parameter Errors",
+    "section": "8.6 7.4 Arrays",
+    "text": "8.6 7.4 Arrays\n\n8.6.1 Array Basics\n#!/bin/bash\n# arrays.sh\n\necho \"Bash Arrays Guide\"\necho \"=================\"\necho\n\ncat &lt;&lt; 'EOF'\nDECLARATION:\n────────────\n\narr=()                  # Empty array\narr=(\"a\" \"b\" \"c\")       # With values\narr[0]=\"first\"          # Indexed assignment\nmapfile -t arr &lt; file   # From file\n\nACCESS:\n───────\n\n${arr[0]}               # First element\n${arr[-1]}              # Last element (Bash 4.3+)\n${arr[@]}               # All elements\n\"${arr[@]}\"             # All (quoted)\n${#arr[@]}              # Count\n${!arr[@]}              # All indices\n\nOPERATIONS:\n───────────\n\narr+=(element)          # Append\nunset arr[1]            # Remove element\narr=()                  # Clear\n\nITERATION:\n──────────\n\nfor item in \"${arr[@]}\"; do\n    echo \"$item\"\ndone\nEOF\n\necho\necho \"EXAMPLES:\"\necho \"─────────\"\necho\n\ncolors=(\"red\" \"green\" \"blue\")\necho \"Array: (${colors[@]})\"\necho \"Count: ${#colors[@]}\"\necho \"First: ${colors[0]}\"\necho \"Last: ${colors[-1]}\"\necho\n\necho \"Iteration:\"\nfor color in \"${colors[@]}\"; do\n    echo \"  $color\"\ndone\n\n\n\n8.6.2 Common Array Mistakes\n#!/bin/bash\n# array_mistakes.sh\n\necho \"Common Array Mistakes\"\necho \"=====================\"\necho\n\n# Mistake 1: Not quoting\necho \"MISTAKE 1: Not quoting expansion\"\nfiles=(\"file 1.txt\" \"file 2.txt\")\necho \"Array: (\\\"file 1.txt\\\" \\\"file 2.txt\\\")\"\necho\necho \"Wrong: for f in \\${files[@]}\"\nfor f in ${files[@]}; do\n    echo \"  '$f'\"  # Splits!\ndone\necho\necho \"Right: for f in \\\"\\${files[@]}\\\"\"\nfor f in \"${files[@]}\"; do\n    echo \"  '$f'\"  # Preserved\ndone\necho\n\n# Mistake 2: Counting wrong\necho \"MISTAKE 2: Wrong count syntax\"\narr=(\"a\" \"b\" \"c\")\necho \"Wrong: \\${#arr} = ${#arr}  (length of first)\"\necho \"Right: \\${#arr[@]} = ${#arr[@]}  (count)\"",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Chapter 7: Variable and Parameter Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-07-variable-errors.html#environment-variables",
+    "href": "chapter-07-variable-errors.html#environment-variables",
+    "title": "8  Chapter 7: Variable and Parameter Errors",
+    "section": "8.7 7.5 Environment Variables",
+    "text": "8.7 7.5 Environment Variables\n\n8.7.1 Understanding Environment Variables\n#!/bin/bash\n# environment_variables.sh\n\necho \"Environment Variables\"\necho \"=====================\"\necho\n\ncat &lt;&lt; 'EOF'\nSHELL vs ENVIRONMENT:\n─────────────────────\n\nSHELL VARIABLE:\n• Local to current shell\n• Not inherited\n• Set: var=\"value\"\n\nENVIRONMENT VARIABLE:\n• Inherited by children\n• Exported\n• Set: export VAR=\"value\"\n\nCOMMON ENV VARS:\n────────────────\nPATH, HOME, USER, SHELL,\nPWD, HOSTNAME, LANG, TERM\n\nOPERATIONS:\n───────────\nexport VAR=\"value\"   # Create/export\necho \"$VAR\"          # Access\nunset VAR            # Remove\nenv                  # List all\nprintenv VAR         # Print specific\nEOF\n\necho\necho \"DEMONSTRATION:\"\necho \"──────────────\"\necho\n\nshell_var=\"local\"\nexport env_var=\"exported\"\n\necho \"Set shell_var=\\\"local\\\"\"\necho \"Set export env_var=\\\"exported\\\"\"\necho\necho \"In subshell:\"\nbash -c 'echo \"  shell_var=$shell_var (empty)\"'\nbash -c 'echo \"  env_var=$env_var (visible)\"'",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Chapter 7: Variable and Parameter Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-07-variable-errors.html#variable-scope-and-subshells",
+    "href": "chapter-07-variable-errors.html#variable-scope-and-subshells",
+    "title": "8  Chapter 7: Variable and Parameter Errors",
+    "section": "8.8 7.6 Variable Scope and Subshells",
+    "text": "8.8 7.6 Variable Scope and Subshells\n\n8.8.1 Understanding Scope\n#!/bin/bash\n# variable_scope.sh\n\necho \"Variable Scope\"\necho \"==============\"\necho\n\ncat &lt;&lt; 'EOF'\nSCOPE RULES:\n────────────\n\nGLOBAL:\n• Default scope\n• Available everywhere\n• Available in functions\n\nLOCAL:\n• Declared with 'local'\n• Function-only\n• Shadows globals\n\nSUBSHELL:\n• Changes don't affect parent\n• Created by: ( ), $( ), |\n• Gets copy of variables\nEOF\n\necho\necho \"EXAMPLES:\"\necho \"─────────\"\necho\n\n# Global variable\nglobal_var=\"I am global\"\necho \"1. Global: $global_var\"\n\nshow_global() {\n    echo \"   In function: $global_var\"\n}\nshow_global\necho\n\n# Local shadows global\ncounter=10\necho \"2. Global counter=$counter\"\n\nincrement() {\n    local counter=0\n    ((counter++))\n    echo \"   Function (local): counter=$counter\"\n}\nincrement\necho \"   After function: counter=$counter (unchanged)\"\necho\n\n# Subshell doesn't affect parent\nvalue=\"original\"\necho \"3. Original: $value\"\n(\n    value=\"changed\"\n    echo \"   Subshell: $value\"\n)\necho \"   After subshell: $value (unchanged)\"\n\n\n\n8.8.2 Pipeline Subshell Issue\n#!/bin/bash\n# pipeline_subshell.sh\n\necho \"Pipeline Subshell Problem\"\necho \"=========================\"\necho\n\n# Problem: Variable in pipeline\nsum=0\necho \"Initial sum: $sum\"\necho\n\necho \"Wrong (pipeline):\"\necho \"1 2 3\" | while read n; do\n    ((sum += n))\ndone\necho \"After pipeline: sum=$sum (still 0!)\"\necho\n\n# Solution: Process substitution\nsum=0\necho \"Right (process substitution):\"\nwhile read n; do\n    ((sum += n))\ndone &lt; &lt;(echo \"1 2 3\")\necho \"After loop: sum=$sum (correct!)\"",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Chapter 7: Variable and Parameter Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-07-variable-errors.html#special-variables",
+    "href": "chapter-07-variable-errors.html#special-variables",
+    "title": "8  Chapter 7: Variable and Parameter Errors",
+    "section": "8.9 7.7 Special Variables",
+    "text": "8.9 7.7 Special Variables\n\n8.9.1 Built-in Special Variables\n#!/bin/bash\n# special_variables.sh\n\necho \"Special Variables\"\necho \"=================\"\necho\n\ncat &lt;&lt; 'EOF'\nPOSITIONAL:\n───────────\n$0          Script name\n$1-$9       Arguments\n$#          Argument count\n$@          All arguments (separate)\n$*          All arguments (single)\n\nPROCESS:\n────────\n$$          Current PID\n$!          Last background PID\n$?          Last exit status\n$-          Shell options\n\nSPECIAL:\n────────\n$_          Last argument\n$RANDOM     Random number\n$LINENO     Line number\n$HOSTNAME   Hostname\nEOF\n\necho\necho \"CURRENT VALUES:\"\necho \"───────────────\"\necho \"\\$0 = $0\"\necho \"\\$# = $#\"\necho \"\\$$ = $$\"\necho \"\\$RANDOM = $RANDOM\"\necho \"\\$LINENO = $LINENO\"\necho\n\n# Exit status\ntrue\necho \"After 'true': \\$? = $?\"\nfalse\necho \"After 'false': \\$? = $?\"",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Chapter 7: Variable and Parameter Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-07-variable-errors.html#variable-debugging-tools",
+    "href": "chapter-07-variable-errors.html#variable-debugging-tools",
+    "title": "8  Chapter 7: Variable and Parameter Errors",
+    "section": "8.10 7.8 Variable Debugging Tools",
+    "text": "8.10 7.8 Variable Debugging Tools\n\n8.10.1 Variable Inspector\n#!/bin/bash\n# variable_inspector.sh\n\ninspect_variable() {\n    local var_name=\"$1\"\n    \n    if [[ -z \"$var_name\" ]]; then\n        echo \"Usage: $0 &lt;variable_name&gt;\"\n        return 1\n    fi\n    \n    echo \"Variable Inspector: $var_name\"\n    echo \"═══════════════════════════════\"\n    echo\n    \n    # Check if variable is set\n    if [[ -v \"$var_name\" ]]; then\n        echo \"✓ Variable is set\"\n        \n        # Get value\n        local value=\"${!var_name}\"\n        echo \"Value: '$value'\"\n        echo \"Length: ${#value}\"\n        echo \"Type: $(declare -p \"$var_name\" 2&gt;/dev/null | cut -d' ' -f2 || echo \"regular\")\"\n        \n        # Check if exported\n        if [[ \"${!var_name@a}\" == *x* ]]; then\n            echo \"✓ Exported (environment variable)\"\n        else\n            echo \"• Shell variable only\"\n        fi\n        \n        # Check if readonly\n        if [[ \"${!var_name@a}\" == *r* ]]; then\n            echo \"✓ Read-only\"\n        fi\n        \n    else\n        echo \"✗ Variable is not set\"\n        echo\n        echo \"Suggestions:\"\n        echo \"  • Check spelling\"\n        echo \"  • Initialize: $var_name=\\\"\\\"\"\n        echo \"  • Use default: \\${$var_name:-default}\"\n    fi\n}\n\ninspect_variable \"$1\"",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Chapter 7: Variable and Parameter Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-07-variable-errors.html#key-takeaways",
+    "href": "chapter-07-variable-errors.html#key-takeaways",
+    "title": "8  Chapter 7: Variable and Parameter Errors",
+    "section": "8.11 7.9 Key Takeaways",
+    "text": "8.11 7.9 Key Takeaways\n✓ Always quote variables - “$var” not $var\n✓ Use set -u - Catch unbound variables\n✓ Provide defaults - ${var:-default}\n✓ Use local in functions - Prevent global modification\n✓ Know subshell limits - Variables don’t persist\n✓ Quote array expansion - “${array[@]}”\n✓ Export when needed - Only for child processes\n✓ Understand special vars - $?, $!, $@",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Chapter 7: Variable and Parameter Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-07-variable-errors.html#quick-reference",
+    "href": "chapter-07-variable-errors.html#quick-reference",
+    "title": "8  Chapter 7: Variable and Parameter Errors",
+    "section": "8.12 7.10 Quick Reference",
+    "text": "8.12 7.10 Quick Reference\n# Declaration\nvar=\"value\"\nreadonly VAR=\"constant\"\ndeclare -i num=42\n\n# Access\n$var\n${var}\n\"$var\"\n\n# Defaults\n${var:-default}        # Use default\n${var:=default}        # Assign default\n${var:?error}          # Error if unset\n\n# String operations\n${#var}                # Length\n${var:start:len}       # Substring\n${var#pattern}         # Remove prefix\n${var%pattern}         # Remove suffix\n${var/old/new}         # Replace\n${var^^}               # Uppercase\n\n# Arrays\narr=(a b c)\n${arr[0]}\n${arr[@]}\n${#arr[@]}\n\n# Environment\nexport VAR=\"value\"\nunset VAR\n\n# Special variables\n$0 $1 $2 ...           # Script and arguments\n$# $@ $*               # Argument info\n$$ $! $?               # Process info\n\nEnd of Chapter 7\nNext: Chapter 8: Process and Job Control Errors",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Chapter 7: Variable and Parameter Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-08-process-errors.html",
+    "href": "chapter-08-process-errors.html",
+    "title": "9  Chapter 8: Process and Job Control Errors",
+    "section": "",
+    "text": "9.1 Managing Processes, Jobs, and Signal Handling",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Chapter 8: Process and Job Control Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-08-process-errors.html#overview",
+    "href": "chapter-08-process-errors.html#overview",
+    "title": "9  Chapter 8: Process and Job Control Errors",
+    "section": "9.2 Overview",
+    "text": "9.2 Overview\nProcess management and job control are essential Bash skills. This chapter teaches you to manage processes, handle signals properly, and debug issues with background jobs, exit codes, and process communication.\nBy the end of this chapter, you’ll master: - Process IDs and parent/child relationships - Foreground and background job control - Exit codes and error propagation - Signal handling with trap - Killing and managing stuck processes - Process substitution techniques - Preventing zombie processes - Concurrent script execution",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Chapter 8: Process and Job Control Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-08-process-errors.html#understanding-processes",
+    "href": "chapter-08-process-errors.html#understanding-processes",
+    "title": "9  Chapter 8: Process and Job Control Errors",
+    "section": "9.3 8.1 Understanding Processes",
+    "text": "9.3 8.1 Understanding Processes\n\n9.3.1 Process Basics\n#!/bin/bash\n# process_basics.sh\n\necho \"Understanding Processes\"\necho \"======================\"\necho\n\ncat &lt;&lt; 'EOF'\nCONCEPTS:\n─────────\n\nPROCESS ID (PID):\n• Unique identifier\n• Shown in ps, top, $$\n• Used to manage process\n\nPARENT PID (PPID):\n• Creator's PID\n• Forms process tree\n\nSTATES:\n───────\nR   Running\nS   Sleeping\nD   Uninterruptible sleep\nT   Stopped\nZ   Zombie\n\nCOMMANDS:\n─────────\nps              Current processes\nps aux          All processes\npstree          Process tree\ntop             Monitor\nEOF\n\necho\necho \"CURRENT PROCESS:\"\necho \"────────────────\"\necho \"PID: $$\"\necho \"PPID: $PPID\"\necho \"User: $(whoami)\"\necho \"Dir: $(pwd)\"",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Chapter 8: Process and Job Control Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-08-process-errors.html#job-control",
+    "href": "chapter-08-process-errors.html#job-control",
+    "title": "9  Chapter 8: Process and Job Control Errors",
+    "section": "9.4 8.2 Job Control",
+    "text": "9.4 8.2 Job Control\n\n9.4.1 Foreground and Background\n#!/bin/bash\n# job_control.sh\n\necho \"Job Control\"\necho \"===========\"\necho\n\ncat &lt;&lt; 'EOF'\nBASICS:\n───────\n\nFOREGROUND:\n• Blocks shell\n• Can interrupt (Ctrl+C)\n\nBACKGROUND:\n• Runs independently\n• Started with &\n• Shell remains interactive\n\nCOMMANDS:\n─────────\n\ncommand &           Run in background\njobs                List jobs\nfg %1               Foreground job 1\nbg %1               Background job 1\nkill %1             Kill job 1\nwait                Wait for all\nwait PID            Wait for specific\n\nSHORTCUTS:\n──────────\n\nCtrl+C              Kill (SIGINT)\nCtrl+Z              Stop (SIGTSTP)\nEOF\n\necho\necho \"DEMONSTRATION:\"\necho \"──────────────\"\necho\n\n# Background job\nsleep 3 &\npid=$!\necho \"Started sleep 3 in background (PID: $pid)\"\njobs\nwait $pid\necho \"Job completed\"",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Chapter 8: Process and Job Control Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-08-process-errors.html#exit-codes",
+    "href": "chapter-08-process-errors.html#exit-codes",
+    "title": "9  Chapter 8: Process and Job Control Errors",
+    "section": "9.5 8.3 Exit Codes",
+    "text": "9.5 8.3 Exit Codes\n\n9.5.1 Understanding Exit Codes\n#!/bin/bash\n# exit_codes.sh\n\necho \"Exit Codes\"\necho \"==========\"\necho\n\ncat &lt;&lt; 'EOF'\nBASICS:\n───────\n\n• 0 = Success\n• 1-255 = Failure\n• Stored in $?\n\nCOMMON CODES:\n─────────────\n\n0       Success\n1       General error\n2       Misuse of builtin\n126     Not executable\n127     Command not found\n128+N   Fatal signal N\n130     Ctrl+C (SIGINT)\n\nUSAGE:\n──────\n\nexit 0              Success\nexit 1              Error\nreturn 0            Function success\n\nCHECKING:\n─────────\n\nif command; then\n    echo \"Success\"\nfi\n\ncommand\nif [ $? -eq 0 ]; then\n    echo \"Success\"\nfi\nEOF\n\necho\necho \"EXAMPLES:\"\necho \"─────────\"\necho\n\ntrue\necho \"After 'true': \\$? = $?\"\n\nfalse\necho \"After 'false': \\$? = $?\"\n\nnonexistent 2&gt;/dev/null || ec=$?\necho \"After nonexistent: \\$? = $ec\"\n\n\n\n9.5.2 Exit Code Best Practices\n#!/bin/bash\n# exit_code_practices.sh\n\nset -euo pipefail\n\necho \"Exit Code Best Practices\"\necho \"========================\"\necho\n\n# Define constants\nreadonly EXIT_SUCCESS=0\nreadonly EXIT_ERROR=1\nreadonly EXIT_CONFIG_ERROR=2\n\necho \"1. Use named constants\"\necho \"   readonly EXIT_SUCCESS=0\"\necho\n\n# Check important commands\necho \"2. Check important commands\"\nif cp /etc/passwd /tmp/test_$$ 2&gt;/dev/null; then\n    echo \"   ✓ Copy succeeded\"\n    rm /tmp/test_$$\nelse\n    echo \"   ✗ Copy failed\"\nfi\necho\n\n# Propagate errors in pipelines\necho \"3. Use pipefail\"\nset -o pipefail\nif echo \"test\" | grep test | wc -l &gt;/dev/null; then\n    echo \"   ✓ Pipeline succeeded\"\nfi\n\nif false | echo \"continues\" 2&gt;/dev/null; then\n    echo \"   Pipeline succeeded\"\nelse\n    echo \"   ✗ Pipeline failed (caught)\"\nfi",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Chapter 8: Process and Job Control Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-08-process-errors.html#signal-handling-with-trap",
+    "href": "chapter-08-process-errors.html#signal-handling-with-trap",
+    "title": "9  Chapter 8: Process and Job Control Errors",
+    "section": "9.6 8.4 Signal Handling with Trap",
+    "text": "9.6 8.4 Signal Handling with Trap\n\n9.6.1 Understanding Signals\n#!/bin/bash\n# signals.sh\n\necho \"Signals\"\necho \"=======\"\necho\n\ncat &lt;&lt; 'EOF'\nCOMMON SIGNALS:\n───────────────\n\nSIGINT (2)      Ctrl+C\nSIGTERM (15)    Termination\nSIGKILL (9)     Force kill\nSIGHUP (1)      Hangup\nSIGTSTP (20)    Ctrl+Z\n\nTRAP SYNTAX:\n────────────\n\ntrap 'commands' SIGNAL\ntrap 'commands' EXIT\ntrap 'commands' ERR\n\nPSEUDO-SIGNALS:\n───────────────\n\nEXIT            Script exits\nERR             Command fails\nDEBUG           Before command\nRETURN          Function returns\n\nEXAMPLES:\n─────────\n\ntrap 'cleanup' EXIT\ntrap 'echo Interrupted' INT\ntrap 'handle_error $LINENO' ERR\nEOF\n\n\n\n9.6.2 Practical Trap Examples\n#!/bin/bash\n# trap_examples.sh\n\nset -euo pipefail\n\necho \"Trap Examples\"\necho \"=============\"\necho\n\n# Example 1: Cleanup\necho \"1. Cleanup on exit\"\ntemp_dir=$(mktemp -d)\n\ncleanup() {\n    echo \"   Cleaning up: $temp_dir\"\n    rm -rf \"$temp_dir\"\n}\n\ntrap cleanup EXIT\n\necho \"   Created: $temp_dir\"\ntouch \"$temp_dir/test.txt\"\necho \"   (Will be cleaned up)\"\necho\n\n# Example 2: Graceful shutdown\necho \"2. Graceful shutdown\"\n\nshutdown_handler() {\n    echo \"   Shutting down gracefully...\"\n}\n\ntrap shutdown_handler INT TERM\n\necho \"   Trap set for INT and TERM\"\necho\n\n# Example 3: Error handler\necho \"3. Error handling\"\n\nerror_handler() {\n    echo \"   Error on line $1\"\n}\n\ntrap 'error_handler $LINENO' ERR\n\necho \"   Trap set for ERR\"",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Chapter 8: Process and Job Control Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-08-process-errors.html#killing-processes",
+    "href": "chapter-08-process-errors.html#killing-processes",
+    "title": "9  Chapter 8: Process and Job Control Errors",
+    "section": "9.7 8.5 Killing Processes",
+    "text": "9.7 8.5 Killing Processes\n\n9.7.1 Kill Command\n#!/bin/bash\n# killing_processes.sh\n\necho \"Killing Processes\"\necho \"=================\"\necho\n\ncat &lt;&lt; 'EOF'\nSYNTAX:\n───────\n\nkill PID            TERM signal\nkill -SIGNAL PID    Specific signal\nkill -9 PID         Force kill\nkill -15 PID        Graceful term\n\nkillall NAME        By name\npkill NAME          By pattern\n\nCHECKING:\n─────────\n\nkill -0 PID         Check if running\n\nSTRATEGY:\n─────────\n\n1. Try graceful:\n   kill -TERM $PID\n   sleep 2\n\n2. Check still running:\n   if kill -0 $PID 2&gt;/dev/null; then\n       kill -KILL $PID\n   fi\nEOF\n\necho\necho \"DEMONSTRATION:\"\necho \"──────────────\"\necho\n\n# Start process\nsleep 100 &\npid=$!\necho \"Started process: $pid\"\n\n# Graceful kill\necho \"Sending TERM...\"\nkill -TERM $pid\nwait $pid 2&gt;/dev/null || true\necho \"✓ Process terminated\"\n\n\n\n9.7.2 Safe Termination\n#!/bin/bash\n# safe_termination.sh\n\nkill_gracefully() {\n    local pid=$1\n    local timeout=${2:-10}\n\n    echo \"Killing $pid gracefully...\"\n\n    if ! kill -0 $pid 2&gt;/dev/null; then\n        echo \"  Process doesn't exist\"\n        return 1\n    fi\n\n    # Try TERM\n    echo \"  Sending TERM...\"\n    kill -TERM $pid 2&gt;/dev/null || return 1\n\n    # Wait\n    local count=0\n    while kill -0 $pid 2&gt;/dev/null && ((count &lt; timeout)); do\n        sleep 1\n        ((count++))\n    done\n\n    # Check\n    if ! kill -0 $pid 2&gt;/dev/null; then\n        echo \"  ✓ Terminated gracefully\"\n        return 0\n    fi\n\n    # Force\n    echo \"  Timeout, sending KILL...\"\n    kill -9 $pid 2&gt;/dev/null || true\n    sleep 1\n\n    if ! kill -0 $pid 2&gt;/dev/null; then\n        echo \"  ✓ Killed\"\n    else\n        echo \"  ✗ Failed to kill\"\n        return 1\n    fi\n}\n\n# Demo\nsleep 100 &\npid=$!\necho \"Started: $pid\"\nkill_gracefully $pid 2",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Chapter 8: Process and Job Control Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-08-process-errors.html#zombie-and-orphan-processes",
+    "href": "chapter-08-process-errors.html#zombie-and-orphan-processes",
+    "title": "9  Chapter 8: Process and Job Control Errors",
+    "section": "9.8 8.6 Zombie and Orphan Processes",
+    "text": "9.8 8.6 Zombie and Orphan Processes\n\n9.8.1 Understanding Zombies\n#!/bin/bash\n# zombies_orphans.sh\n\ncat &lt;&lt; 'EOF'\nZOMBIE PROCESS:\n───────────────\n\nDEFINITION:\n• Process completed\n• Exit status not read\n• Shows as &lt;defunct&gt;\n• Takes process table entry\n\nCAUSE:\n• Parent doesn't call wait()\n\nFIX:\n• Parent must wait\n• Or kill parent (init reaps)\n\nORPHAN PROCESS:\n───────────────\n\nDEFINITION:\n• Parent has died\n• Adopted by init (PID 1)\n\nNOT A PROBLEM:\n• Automatically cleaned up\n\nPREVENTION:\n───────────\n\nFor Zombies:\n1. Always wait\n2. Use trap to wait on EXIT\n3. Handle SIGCHLD\n\ntrap 'wait' EXIT\nEOF",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Chapter 8: Process and Job Control Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-08-process-errors.html#process-substitution",
+    "href": "chapter-08-process-errors.html#process-substitution",
+    "title": "9  Chapter 8: Process and Job Control Errors",
+    "section": "9.9 8.7 Process Substitution",
+    "text": "9.9 8.7 Process Substitution\n\n9.9.1 Understanding Process Substitution\n#!/bin/bash\n# process_substitution.sh\n\necho \"Process Substitution\"\necho \"====================\"\necho\n\ncat &lt;&lt; 'EOF'\nSYNTAX:\n───────\n\n&lt;(command)          Output as file\n&gt;(command)          Input as file\n\nADVANTAGES:\n───────────\n\n• Avoid subshell issues\n• Use output as filename\n• Compare outputs\n• Parallel processing\n\nEXAMPLES:\n─────────\n\n1. Compare:\n   diff &lt;(ls dir1) &lt;(ls dir2)\n\n2. Preserve variables:\n   while read line; do\n       ((count++))\n   done &lt; &lt;(cat file)\n\n3. Multiple inputs:\n   paste &lt;(seq 1 5) &lt;(seq 10 15)\nEOF\n\necho\necho \"DEMONSTRATION:\"\necho \"──────────────\"\necho\n\n# Variable persistence\necho \"Variable in loop:\"\ncount=0\nwhile read word; do\n    ((count++))\ndone &lt; &lt;(echo \"one two three\")\necho \"Count: $count (preserved!)\"",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Chapter 8: Process and Job Control Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-08-process-errors.html#concurrent-execution",
+    "href": "chapter-08-process-errors.html#concurrent-execution",
+    "title": "9  Chapter 8: Process and Job Control Errors",
+    "section": "9.10 8.8 Concurrent Execution",
+    "text": "9.10 8.8 Concurrent Execution\n\n9.10.1 Running Tasks Concurrently\n#!/bin/bash\n# concurrent_execution.sh\n\necho \"Concurrent Execution\"\necho \"====================\"\necho\n\n# Simple concurrent\necho \"1. Simple concurrent\"\ntask1() { echo \"  Task 1\"; sleep 1; }\ntask2() { echo \"  Task 2\"; sleep 1; }\n\ntask1 &\ntask2 &\n\necho \"  Waiting...\"\nwait\necho \"  ✓ Complete\"\necho\n\n# Limited parallelism\necho \"2. Limited parallelism\"\nmax_jobs=3\n\nwait_for_slot() {\n    while (($(jobs -r | wc -l) &gt;= max_jobs)); do\n        sleep 0.1\n    done\n}\n\necho \"  Processing 10 items (max $max_jobs concurrent)\"\nfor i in {1..10}; do\n    wait_for_slot\n    (echo \"  Item $i\"; sleep 0.5) &\ndone\n\nwait\necho \"  ✓ All complete\"",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Chapter 8: Process and Job Control Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-08-process-errors.html#process-debugging-tools",
+    "href": "chapter-08-process-errors.html#process-debugging-tools",
+    "title": "9  Chapter 8: Process and Job Control Errors",
+    "section": "9.11 8.9 Process Debugging Tools",
+    "text": "9.11 8.9 Process Debugging Tools\n\n9.11.1 Process Monitor\n#!/bin/bash\n# process_monitor.sh\n\nmonitor_process() {\n    local pid=\"$1\"\n    local interval=\"${2:-1}\"\n    \n    if [[ -z \"$pid\" ]]; then\n        echo \"Usage: $0 &lt;PID&gt; [interval]\"\n        return 1\n    fi\n    \n    echo \"Monitoring process $pid (interval: ${interval}s)\"\n    echo \"Press Ctrl+C to stop\"\n    echo\n    \n    while kill -0 \"$pid\" 2&gt;/dev/null; do\n        echo \"$(date): PID $pid\"\n        ps -p \"$pid\" -o pid,ppid,state,pcpu,pmem,etime,cmd 2&gt;/dev/null || {\n            echo \"Process $pid no longer exists\"\n            break\n        }\n        echo\n        sleep \"$interval\"\n    done\n}\n\nlist_children() {\n    local pid=\"$1\"\n    \n    if [[ -z \"$pid\" ]]; then\n        echo \"Usage: list_children &lt;PID&gt;\"\n        return 1\n    fi\n    \n    echo \"Children of process $pid:\"\n    pgrep -P \"$pid\" 2&gt;/dev/null | while read child; do\n        echo \"  $child: $(ps -p $child -o cmd --no-headers 2&gt;/dev/null)\"\n    done\n}\n\ncase \"${1:-}\" in\n    monitor)\n        monitor_process \"$2\" \"$3\"\n        ;;\n    children)\n        list_children \"$2\"\n        ;;\n    *)\n        echo \"Process Tools\"\n        echo \"=============\"\n        echo\n        echo \"Usage:\"\n        echo \"  $0 monitor &lt;PID&gt; [interval]  - Monitor process\"\n        echo \"  $0 children &lt;PID&gt;            - List child processes\"\n        ;;\nesac",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Chapter 8: Process and Job Control Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-08-process-errors.html#key-takeaways",
+    "href": "chapter-08-process-errors.html#key-takeaways",
+    "title": "9  Chapter 8: Process and Job Control Errors",
+    "section": "9.12 8.10 Key Takeaways",
+    "text": "9.12 8.10 Key Takeaways\n✓ Save background PIDs - Store $! for management\n✓ Wait for children - Prevent zombies\n✓ Check exit codes - Use $? immediately\n✓ Use trap for cleanup - Always trap EXIT\n✓ Kill gracefully - TERM before KILL\n✓ Handle signals - Trap INT and TERM\n✓ Use process substitution - Avoid pipelines\n✓ Limit concurrency - Don’t spawn unlimited jobs",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Chapter 8: Process and Job Control Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-08-process-errors.html#quick-reference",
+    "href": "chapter-08-process-errors.html#quick-reference",
+    "title": "9  Chapter 8: Process and Job Control Errors",
+    "section": "9.13 8.11 Quick Reference",
+    "text": "9.13 8.11 Quick Reference\n# Process info\n$$                      # Current PID\n$!                      # Last background PID\nps aux                  # List all\n\n# Job control\ncommand &               # Background\njobs                    # List jobs\nwait                    # Wait for all\n\n# Killing\nkill $pid               # TERM\nkill -9 $pid            # KILL\nkill -0 $pid            # Check running\n\n# Signals\ntrap 'cmd' EXIT         # On exit\ntrap 'cmd' INT          # On Ctrl+C\n\n# Exit codes\nexit 0                  # Success\n$?                      # Last exit\n\n# Process substitution\n&lt;(command)              # Output as file\ndiff &lt;(cmd1) &lt;(cmd2)    # Compare\n\nEnd of Chapter 8\nNext: Conclusion",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Chapter 8: Process and Job Control Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-08-process-errors.html#what-youve-learned",
+    "href": "chapter-08-process-errors.html#what-youve-learned",
+    "title": "9  Chapter 8: Process and Job Control Errors",
+    "section": "10.1 What You’ve Learned:",
+    "text": "10.1 What You’ve Learned:\n\nChapter 1: Installation and environment setup\nChapter 2: Understanding error messages\nChapter 3: Command not found errors\nChapter 4: Permission and access errors\nChapter 5: File and directory errors\nChapter 6: Syntax errors\nChapter 7: Variable and parameter errors\nChapter 8: Process and job control errors",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Chapter 8: Process and Job Control Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-08-process-errors.html#next-steps",
+    "href": "chapter-08-process-errors.html#next-steps",
+    "title": "9  Chapter 8: Process and Job Control Errors",
+    "section": "10.2 Next Steps:",
+    "text": "10.2 Next Steps:\n✓ Practice with the exercises ✓ Create your own scripts ✓ Build a reference library ✓ Contribute to the Bash community ✓ Keep learning!",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Chapter 8: Process and Job Control Errors</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-08-process-errors.html#resources",
+    "href": "chapter-08-process-errors.html#resources",
+    "title": "9  Chapter 8: Process and Job Control Errors",
+    "section": "10.3 Resources:",
+    "text": "10.3 Resources:\n\nBash Manual: man bash\nShellCheck: https://www.shellcheck.net/\nBash Guide: https://mywiki.wooledge.org/BashGuide\n\nThank you for reading! Every error is a learning opportunity. Happy scripting! 🚀",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Chapter 8: Process and Job Control Errors</span>"
+    ]
+  }
+]
