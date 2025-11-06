@@ -8,14 +8,14 @@
 - **[index.md](index.md)** - Main repository homepage with complete table of contents
 
 #### Chapters Directory
-- **[Chapter 1: Installation and Environment Setup](chapters/chapter-01-installation-setup.md)**
-- **[Chapter 2: Understanding Error Messages](chapters/chapter-02-understanding-errors.md)**
-- **[Chapter 3: Command Not Found Errors](chapters/chapter-03-command-not-found.md)**
-- **[Chapter 4: Permission and Access Errors](chapters/chapter-04-permission-errors.md)**
-- **[Chapter 5: File and Directory Errors](chapters/chapter-05-file-directory-errors.md)**
-- **[Chapter 6: Syntax Errors](chapters/chapter-06-syntax-errors.md)**
-- **[Chapter 7: Variable and Parameter Errors](chapters/chapter-07-variable-errors.md)**
-- **[Chapter 8: Process and Job Control Errors](chapters/chapter-08-process-errors.md)**
+- **[Chapter 1: Installation and Environment Setup](chapter-01-installation-setup.md)**
+- **[Chapter 2: Understanding Error Messages](chapter-02-understanding-errors.md)**
+- **[Chapter 3: Command Not Found Errors](chapter-03-command-not-found.md)**
+- **[Chapter 4: Permission and Access Errors](chapter-04-permission-errors.md)**
+- **[Chapter 5: File and Directory Errors](chapter-05-file-directory-errors.md)**
+- **[Chapter 6: Syntax Errors](chapter-06-syntax-errors.md)**
+- **[Chapter 7: Variable and Parameter Errors](chapter-07-variable-errors.md)**
+- **[Chapter 8: Process and Job Control Errors](chapter-08-process-errors.md)**
 
 ### ✅ All Chapters Complete!
 
